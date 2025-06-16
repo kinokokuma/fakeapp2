@@ -33,6 +33,16 @@ public class ChatNormal : ChatObjectBase
     private GameObject guildLineTag;
     [SerializeField]
     private TMP_Text time;
+    [SerializeField]
+    private TMP_Text readLeft;
+    [SerializeField]
+    private TMP_Text readRight;
+    [SerializeField]
+    private Image dataImage;
+    [SerializeField]
+    private Image bubble;
+    [SerializeField]
+    private Sprite bubbleRight;
 
     public GameObject video;
     public GameObject textImage;
@@ -43,6 +53,7 @@ public class ChatNormal : ChatObjectBase
     public override void Initialized(ChatDataDetail data, ChatPopup chatPopup, PopUpManager manager, bool muteSound)
     {
         base.Initialized(data, chatPopup, manager, muteSound);
+        data.Content =data.Content.Trim();
         if (data.Icon != string.Empty)
         {
             iconMask.color = new Color32(255,255,255,255);
@@ -52,11 +63,12 @@ public class ChatNormal : ChatObjectBase
         {
             iconMask.color = new Color32(255, 255, 255, 0);
         }
-
         
+
 
         if (data.OnwerName == "my")
         {
+            bubble.sprite = bubbleRight;
             //content.alignment = TextAlignmentOptions.MidlineRight;
             layOutGroup.childAlignment = TextAnchor.UpperRight;
             contentParent.color = new Color32(142, 227, 134, 255);
@@ -80,9 +92,13 @@ public class ChatNormal : ChatObjectBase
         {
             nameParent.SetActive(true);
             name.text = data.OnwerName;
+            readLeft.gameObject.SetActive(false);
+            readRight.gameObject.SetActive(true);
         }
         else
         {
+            readLeft.gameObject.SetActive(true);
+            readRight.gameObject.SetActive(false);
             nameParent.SetActive(false);
             iconMask.color = new Color32(0, 0, 0, 0);
         }
@@ -135,12 +151,14 @@ public class ChatNormal : ChatObjectBase
         }
         else if (data.ChatType == "Time")
         {
+            readLeft.gameObject.SetActive(false);
+            readRight.gameObject.SetActive(false);
             icon.gameObject.SetActive(false);
             contentParent.gameObject.SetActive(false);
             postImage.gameObject.SetActive(false);
-            time.gameObject.SetActive(true);
+            time.gameObject.SetActive(false);
             time.text = data.Content;
-            timeparent.SetActive(true);
+            timeparent.SetActive(false);
             muteSound = true;
         }
         else
@@ -148,6 +166,7 @@ public class ChatNormal : ChatObjectBase
             if (data.PostImage != string.Empty && data.PostImage != "Image/Story3/videoPet")
             {
                 postImage.gameObject.SetActive(true);
+                print("PostImage " + data.PostImage);
                 postImage.sprite = ImageManager.Instance.LoadImage(data.PostImage);
 
                 if ((float)postImage.sprite.texture.width / postImage.sprite.texture.height > 0)
@@ -176,7 +195,7 @@ public class ChatNormal : ChatObjectBase
             else
             {
                 contentParent.gameObject.SetActive(true);
-                if (data.Content.Length < 45)
+                if (data.Content.Length < 25)
                 {
                     contentSize.horizontalFit = ContentSizeFitter.FitMode.PreferredSize;
                 }
@@ -184,8 +203,9 @@ public class ChatNormal : ChatObjectBase
                 {
                     contentSize.horizontalFit = ContentSizeFitter.FitMode.Unconstrained;
                 }
-                string text = data.Content.Replace("{Player}", UserData.UserName);
-                text = text.Replace("{player}", UserData.UserName);
+                string text = data.Content.Replace("{name}", UserData.UserName);
+                text = text.Replace("{name}", UserData.UserName);
+                text = text.Replace("{type}", UserData.UserSex == "ชาย"?"ลุง":"ป้า");
                 if (data.OnwerName == "my")
                 {
                     if (UserData.UserSex == "ชาย")
@@ -197,14 +217,31 @@ public class ChatNormal : ChatObjectBase
                 content.text = text;
             }
         }
+        if (data.showTime == string.Empty || data.showTime == null)
+        {
+            readLeft.gameObject.SetActive(false);
+            readRight.gameObject.SetActive(false);
 
+        }
+        else if(data.OnwerName == "my")
+        {
+            readLeft.text = $"อ่านแล้ว\n{data.showTime}";
+            readRight.text = $"อ่านแล้ว\n{data.showTime}";
+        }
+        else
+        {
+            readLeft.text = $"\n{data.showTime}";
+            readRight.text = $"\n{data.showTime}";
+        }
         //StartCoroutine(UpdateLayoutGroup());
         manager.OldChatname = data.OnwerName;
     }
 
     void Update()
     {
-        if(gameObject.transform.localScale != Vector3.one)
+        readLeft.rectTransform.sizeDelta = new Vector2(readLeft.rectTransform.sizeDelta.x, content.rectTransform.sizeDelta.y +20);
+        readRight.rectTransform.sizeDelta = new Vector2(readRight.rectTransform.sizeDelta.x, content.rectTransform.sizeDelta.y+20);
+        if (gameObject.transform.localScale != Vector3.one)
         gameObject.transform.localScale = Vector3.one;
     }
 

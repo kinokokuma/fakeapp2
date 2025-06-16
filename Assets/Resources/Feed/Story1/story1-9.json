@@ -1,0 +1,105 @@
+{"ID": "chat-03",
+"ChatName": "ดร.ชัย",
+"Icon": [
+    "Image/Story1/chai"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ไม่สนใจ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:45"
+        },        
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ได้สิทธิ์ตรวจสุขภาพฟรีด้วยนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:46"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แถมยังได้เงินตอบแทนดีกว่าปล่อยไว้ในบัญชีเฉยๆนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:47"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "คุณ{type}ไม่สนใจจริงๆหรอครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:48"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าคุณ{type}สนใจร่วมทุนสัก 20,000 ยาทผมให้เป็นสิทธิ์ตรวจสุขภาพฟรีได้นะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:49"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "สนใจไหมครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:50"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "สนใจ",
+                    "LinkType": "chat",
+                    "FileName": "story1-10-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ไม่สนใจ",
+                    "LinkType": "chat",
+                    "FileName": "story1-10-2"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "story1-10-2",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

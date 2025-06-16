@@ -45,7 +45,7 @@ public class bank1Popup : BasePopUp
 
     public void Tran()
     {
-        StartCoroutine(TranCount());
+       // StartCoroutine(TranCount());
     }
 
     IEnumerator TranCount()

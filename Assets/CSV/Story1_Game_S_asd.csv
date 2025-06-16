@@ -1,0 +1,10 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1749041127286,48.08969,choice-chat-01-story1-1,1.676941,ผลไม้,False
+1749582961321,3.272308,choice-chat-01,1.720374,เปิดแชทchat-01,False
+1749583026408,39.06425,choice-chat-01-story1-3,10.26769,เปิดแชททั้งหมด,False
+1749583960216,39.55931,choice-chat-01-story1-3,26.65774,เปิดแชททั้งหมด,False
+1749584445707,39.97147,choice-chat-01-story1-3,10.26241,เปิดแชททั้งหมด,False
+1749584448582,50.23388,choice-chat-02,2.875401,เปิดแชทchat-02,False
+1749584692009,41.12465,choice-chat-01-story1-3,27.17601,เปิดแชททั้งหมด,False
+1749584695357,68.30066,choice-chat-02,3.348503,เปิดแชทchat-02,False
+1749636782434,1114.321,choice-bank1-1,1.68396,โอนเงิน,True

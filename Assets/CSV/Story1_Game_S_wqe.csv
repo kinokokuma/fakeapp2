@@ -1,0 +1,11 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1749632466368,27.91608,choice-bank1-1,1.049677,โอนเงิน,True
+1749641460574,42.54761,choice-chat-04-story1-16-1,44.1569,เปิดแชททั้งหมด,False
+1749641461466,86.70451,choice-chat-01,0.8929825,เปิดแชทchat-01,False
+1749641491611,100.7356,choice-chat-01-story1-17,17.00641,เปิดแชททั้งหมด,False
+1749641494164,117.742,choice-chat-05,2.553795,เปิดแชทchat-05,False
+1749641678766,213.5909,choice-chat-05-story1-18,91.30292,โอน,False
+1749641766203,341.0502,choice-chat-05-story1-19-1,51.28345,เปิดแชททั้งหมด,False
+1749641770668,392.3337,choice-chat-01,4.465607,เปิดแชทchat-01,False
+1749642071210,551.2769,choice-chat-01-story1-21,145.8984,เปิดแชททั้งหมด,False
+1749642072316,697.1753,choice-chat-02,1.105896,เปิดแชทchat-02,False

@@ -21,6 +21,7 @@ public class ChatDataDetail
     public string Icon;
     public string ChatType;
     public float DelayTime;
+    public string showTime;
     public string Content;
     public string PostImage;
     public ChoiceImage[] ChoiceImage;

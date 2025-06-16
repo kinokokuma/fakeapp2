@@ -1,0 +1,93 @@
+{"ID": "chat-03",
+"ChatName": "ดร.ชัย",
+"Icon": [
+    "Image/Story1/chai"
+],
+    "DataDetail": [
+       
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ",
+            "PostImage": "Image/Story1/50000",
+            "LinkToPageName": "",
+	"showTime":"07:55"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ชื่อ นภัส สุนทรกุล\nบัญชี 012-542251-3\nธ.กุ้งไทย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:56"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เรียบร้อยครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:57"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เดี๋ยวจะมีเงินโอนให้ทุกเดือนนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:58"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "งั้นผมไม่รบกวนเวลาคุณ{type}แล้วครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:58"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอบคุณสำหรับการสนับสนุนโปรเจกต์นะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:59"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอให้สุขภาพแข็งแรงนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story1-13",
+	"showTime":"07:59"
+
+        }
+    ]
+}

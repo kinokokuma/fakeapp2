@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,6 +62,7 @@ public class PopUpManager : MonoBehaviour
     public GameObject gopageButton;
     public GameObject SP1Button, SP2Button;
     public string OldChatname;
+    public List<string> IDPath;
     public void SetPhase(QuestionPhase phase)
     {
         this.phase = phase;
@@ -68,6 +70,7 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
+        IDPath = new List<string>();
         TimeRecord.Instance.CreatePlayerCsv();
         chatPopUpDic = new Dictionary<string, ChatPopup>();
         popUpDic = new Dictionary<string, BasePopUp>();
@@ -80,24 +83,24 @@ public class PopUpManager : MonoBehaviour
 
     IEnumerator StartChatStory()
     {
-        if (UserData.Story == "Story1")
-        {
-            OpenChat("storyc", true);
-        }
-        else if (UserData.Story == "Story3")
-        {
-            OpenChat("story3-0-2", true, true);
-            OpenChat("story3-0-3", true, true);
-        }
-        while (NextFileName != "")
-        {
+        /* if (UserData.Story == "Story1")
+         {
+             OpenChat("storyc", true);
+         }
+         else if (UserData.Story == "Story3")
+         {
+             OpenChat("story3-0-2", true, true);
+             OpenChat("story3-0-3", true, true);
+         }
+         while (NextFileName != "")
+         {
 
-        }
+         }*/
         yield return new WaitForEndOfFrame();
 
-        OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story3-14-1-1-1");
-       // OpenChat($"Route1/story1-10-A-1");
+        //OpenChat($"{UserData.Story.ToLower()}-1");
+        OpenChat($"story1-14");
+
         startObj.SetActive(false);
     }
 
@@ -156,8 +159,8 @@ public class PopUpManager : MonoBehaviour
     public void OpenChat(string path,bool muteSound = false,bool isOld =false)
     {
         path = GetSpPath(path);
-
-        ChatData newData = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{path}");
+        IDPath.Add(path);
+        ChatData newData = ReadChatData($"Feed/{UserData.Story}/{path}");
         print(path);
         print(newData.ID);
         string id = newData.ID;
@@ -187,20 +190,37 @@ public class PopUpManager : MonoBehaviour
             chatPopUpDic[id] = popup;
             popUpDic[id] = popup;
             StartCoroutine(popup.ShowChat(newData,muteSound));
-
-            GoToChatButton butt = Instantiate(chatButton, goToChatParent);
-            butt.gameObject.SetActive(true);
-            butt.Initialized(newData, this);
-            allChatButtonList.Add(butt);
+            AddNewButt(newData);
         }
 
         CurrentJsonName = path;
     }
 
+    public void AddNewButt(ChatData newData)
+    {
+        bool have = false;
+
+        foreach (var button in allChatButtonList)
+        {
+            if(button.ID == newData.ID)
+            {
+                have = true;
+                break;
+            }
+        }
+        if (!have)
+        {
+            GoToChatButton butt = Instantiate(chatButton, goToChatParent);
+            print(butt);
+            butt.gameObject.SetActive(true);
+            butt.Initialized(newData, this);
+            allChatButtonList.Add(butt);
+        }
+    }
     public void ShowAllChat( )
     {
         timeToClickChat = Time.time;
-        ChatData data = ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{NextFileName}");
+        ChatData data = ReadChatData($"Feed/{UserData.Story}/{NextFileName}");
         allChat.SetActive(true);
 
         foreach (var button in allChatButtonList)
@@ -338,5 +358,7 @@ public class PostData
     public int ShereCount;
     public bool IsTask;
     public string TaskType;
+    public string TimeStamp;
+    public bool IsRead;
     public PostData[] CommentData;
 }

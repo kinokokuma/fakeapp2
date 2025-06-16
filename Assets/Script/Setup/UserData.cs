@@ -80,6 +80,7 @@ public class UserData : MonoBehaviour
         {
             des.text = story3Des;
         }
+        Story = "Story1";
     }
 
     void extract(string zipPath)

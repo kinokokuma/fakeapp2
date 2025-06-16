@@ -1,0 +1,57 @@
+{"ID": "chat-03",
+"ChatName": "ดร.ชัย",
+"Icon": [
+    "Image/Story1/chai"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วต้องทำยังไง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:50"
+        },        
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "คุณ{type}สนใจร่วมทุนเท่าไรครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:51"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "20,000 บาท",
+                    "LinkType": "chat",
+                    "FileName": "story1-11-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "50,000 บาท",
+                    "LinkType": "chat",
+                    "FileName": "story1-11-2"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

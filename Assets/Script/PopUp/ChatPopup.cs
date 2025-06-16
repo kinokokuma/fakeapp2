@@ -58,12 +58,16 @@ public class ChatPopup : BasePopUp
     public Image header;
     public Image headerImage;
     public AspectRatioFitter headerFitter;
-
+    public Image textbox;
+    public Image bottombar;
     [SerializeField]
     private GameObject mockReload;
 
     public void Start()
     {
+        userInputText.rectTransform.sizeDelta = new Vector2(userInputText.rectTransform.sizeDelta.x, 90);
+        textbox.rectTransform.sizeDelta = new Vector2(textbox.rectTransform.sizeDelta.x, 90);
+        bottombar.rectTransform.sizeDelta = new Vector2(bottombar.rectTransform.sizeDelta.x, 120);
         allChatButton.interactable = false;
            chatObject = new List<ChatObjectBase>();
         allChatButton.onClick.AddListener(ShowChatList);
@@ -87,6 +91,8 @@ public class ChatPopup : BasePopUp
         chatIndex = 0;
         this.data = data;
         int contextCharecterIndex = 0;
+        userInputText.text = string.Empty;
+        
         ID = data.ID;
         if (isFirstTime)
         {
@@ -95,20 +101,20 @@ public class ChatPopup : BasePopUp
             print(data.ChatName);
             if (data.Icon.Length >=2)
             {
-                headerIcon[0].sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
-                headerIcon[1].sprite = ImageManager.Instance.LoadImage(data.Icon[1]);
+              //  headerIcon[0].sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
+              //  headerIcon[1].sprite = ImageManager.Instance.LoadImage(data.Icon[1]);
             }
             else if(data.Icon != null)
             {
-                headerIcon[1].sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
-                headerIconMask[0].gameObject.SetActive(false);
+                //headerIcon[1].sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
+               // headerIconMask[0].gameObject.SetActive(false);
             }
 
             if(data.Header != null)
             {
-                headerImage.sprite = ImageManager.Instance.LoadImage(data.Header);
-                header.gameObject.SetActive(true);
-                headerFitter.aspectRatio = (float)headerImage.sprite.texture.width / (float)headerImage.sprite.texture.height;
+               // headerImage.sprite = ImageManager.Instance.LoadImage(data.Header);
+               // header.gameObject.SetActive(true);
+               // headerFitter.aspectRatio = (float)headerImage.sprite.texture.width / (float)headerImage.sprite.texture.height;
             }
 
             isFirstTime = false;
@@ -118,6 +124,7 @@ public class ChatPopup : BasePopUp
 
         while (chatIndex < data.DataDetail.Length)
         {
+            //data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Trim();
             if (oldIndex != chatIndex || oldIndex == 0)
             {
                 if (data.DataDetail[chatIndex].ChoiceImage != null)
@@ -147,7 +154,7 @@ public class ChatPopup : BasePopUp
                 {
                     if (data.DataDetail[chatIndex].Choice.Length > 0)
                     {
-                        CreateLike();
+                        //CreateLike();
                         for (int i = 0; i < data.DataDetail[chatIndex].Choice.Length; i++)
                         {
                             timeToShowQuestion = Time.time;
@@ -177,7 +184,11 @@ public class ChatPopup : BasePopUp
                         {
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
+
                         }
+
+                        data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("{type}", UserData.UserSex == "ชาย"?"ลุง":"ป้า");
+                        data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("{name}", UserData.UserName);
 
                         if (oldIndex != chatIndex || oldIndex == 0)
                         {
@@ -235,6 +246,17 @@ public class ChatPopup : BasePopUp
                             chat.gameObject.transform.SetParent(chatParent);
                             oldIndex = chatIndex;
                             userInputText.text = string.Empty;
+                            yield return new WaitForSeconds(0.01f);
+                            userInputText.rectTransform.sizeDelta = new Vector2(userInputText.rectTransform.sizeDelta.x, 90);
+                            textbox.rectTransform.sizeDelta = new Vector2(textbox.rectTransform.sizeDelta.x, 90);
+                            bottombar.rectTransform.sizeDelta = new Vector2(bottombar.rectTransform.sizeDelta.x, 120);
+                            userInputText.text = string.Empty;
+                            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+                            LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+                            yield return new WaitForEndOfFrame();
+                            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+                            LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+                            yield return new WaitForEndOfFrame();
                             //Reload();
                         }
                     }
@@ -245,6 +267,7 @@ public class ChatPopup : BasePopUp
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
                         }
+                        
                         ChatObjectBase chat = Instantiate(chatobject, chatParent);
                         chat.gameObject.SetActive(true);
                         chat.isSingle = data.Icon.Length >= 2 ? false : true;
@@ -289,10 +312,11 @@ public class ChatPopup : BasePopUp
             manager.NextFileName = manager.GetSpPath(data.DataDetail[data.DataDetail.Length - 1].FileName);
             if (data.DataDetail[chatIndex - 1].LinkType == "chat")
             {
-                ChatData newData = manager.ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
+                ChatData newData = manager.ReadChatData($"Feed/{UserData.Story}/{data.DataDetail[data.DataDetail.Length - 1].FileName}");
                 print("check ID : "+ID + " " + newData.ID);
                 if (newData.ID != ID)
                 {
+                    manager.AddNewButt(newData);
                     manager.timeToClickChat = Time.time;
                     allChatButton.interactable = true;
                     allChatGuildlind.SetActive(true);
@@ -364,7 +388,7 @@ public class ChatPopup : BasePopUp
     private void LateUpdate()
     {
 
-        if (chatParent.sizeDelta.y <= 1134)
+        if (chatParent.sizeDelta.y <= 1400)
         {
             chatParent.pivot = new Vector2(chatParent.pivot.x, 1);
         }
@@ -433,10 +457,12 @@ public class ChatPopup : BasePopUp
         manager.NextFileName = dataDetail.FileName;
         if (choiceText.LinkType == "chat")
         {
-            ChatData newData = manager.ReadChatData($"Feed/{UserData.Solution}/{UserData.Story}/{dataDetail.FileName}");
+            ChatData newData = manager.ReadChatData($"Feed/{UserData.Story}/{dataDetail.FileName}");
+            manager.NextFileName = dataDetail.FileName;
             print("check ID : " + ID + " " + newData.ID);
             if (newData.ID != ID)
             {
+                manager.AddNewButt(newData);
                 manager.timeToClickChat = Time.time;
                 allChatButton.interactable = true;
                 allChatGuildlind.SetActive(true);

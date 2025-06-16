@@ -1,0 +1,55 @@
+{"ID": "chat-05",
+"ChatName": "p.",
+"Icon": [
+    "Image/Story1/ping"
+],
+    "DataDetail": [
+        
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิงอยู่ที่โรงพยาบาลอะไร",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:37"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ทำไมเขาให้โอนเงินก่อนรักษา",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:38"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " บอกชื่อโรงพยาบาลมาเดี๋ยว {type}จะโทรไปคุยให้",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:38"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิง ว่ายังไง",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story1-20-2",
+	"showTime":"12:38"
+        }
+    ]
+}

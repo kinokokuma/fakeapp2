@@ -1,0 +1,60 @@
+{"ID": "chat-03",
+"ChatName": "ดร.ชัย",
+"Icon": [
+    "Image/Story1/chai"
+],
+    "DataDetail": [
+       
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ไม่สนใจจริงๆ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:50"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:51"
+
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอบคุณที่สละเวลานะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:52"
+
+        }, 
+        
+        
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าในอนาคตคุณ{type}สนใจลงทุนติดต่อผมได้เลยนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story1-13",
+	"showTime":"07:53"
+
+        }
+    ]
+}

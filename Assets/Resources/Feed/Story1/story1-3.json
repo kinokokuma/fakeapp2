@@ -1,0 +1,102 @@
+{"ID": "chat-01",
+"ChatName": "น้องผิงผิง",
+"Icon": [
+    "Image/Story1/ping"
+],
+    "DataDetail": [
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ขอบใจนะลูก",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:07"
+        },
+                {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วฝากบอกพ่อแม่ให้ขับรถระวัง ๆ หน่อย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:08"
+        },
+                {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " วันหยุดอุบัติเหตุก็เยอะด้วย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:08"
+        },
+                {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " เห็นข่าวทีไรก็ใจไม่ดี",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:09"
+        },
+
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ได้เลยค่ะ เดี๋ยวผิงบอกพ่อกับแม่ให้นะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:09"
+
+        },
+                {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พ่อเรียกแล้วค่ะ ผิงไปก่อนนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:09"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เจอกันที่บ้านนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:10"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " จ้ะ เดินทางปลอดภัยนะลูก",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:10",
+            "LinkType": "chat",
+            "FileName": "story1-4"
+        }
+    ]
+}

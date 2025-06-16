@@ -1,0 +1,297 @@
+{"ID": "chat-01",
+"ChatName": "น้องผิงผิง",
+"Icon": [
+    "Image/Story1/ping"
+],
+    "DataDetail": [
+        {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": " 12:39",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พ่อกับแม่แวะพาไปเที่ยวค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:39"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เพิ่งซื้อของที่ตลาดนัดงานวัดเสร็จค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:39"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ใกล้จะถึงแล้วค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิงไม่ได้รถชนหรอ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เปล่านะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " เมื่อกี้มีคนทักมาบอกว่าเป็นผิงแล้วบอกรถชน",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ให้โอนเงินให้",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แล้วได้โอนเงินให้ไหมคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " โชคดีไม่ได้โอนไป",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิงไม่เป็นอะไรก็ดีแล้ว",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เขาทักมาเหมือนหนูเลยเหรอคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ใช่ เขาก็เร่งให้รีบโอนเพราะพ่อกับแม่ผิงเจ็บหนัก",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แต่{type}แปลกใจว่าทำไมเขาให้โอนเงินค่ารักษาก่อน ถึงจะผ่าตัดได้",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:42"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " {type}เลยถามชื่อโรงพยาบาลไป",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:43"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " จะโทรไปคุยให้ แล้ว{type}จะได้ไปหาผิงด้วย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:43"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แต่พอแล้วก็อ่านไม่ตอบเลย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:43"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วผิงก็ทักมาพอดี",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:44"
+        },
+{
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ยังดีนะคะที่ยังไม่ได้โอน",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:44"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้ามีคนทักมาขอเงินแบบนี้อีก {type}{name}ห้ามเชื่อเลยนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:44"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าเป็นไลน์ใหม่ ห้ามบอกชื่อญาติออกไปก่อนเด็ดขาดค่ะ ต้องถามว่าเป็นใคร แล้วเคยเจอกันล่าสุดเมื่อไหร่ด้วย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:44"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าข้อมูลหรือขอให้เขาส่งรูป หรือวิดีโอคอล ถ้าอ้างว่าไม่ได้ตลอด อาจน่าสงสัย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:45"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่ถ้าเป็นเรื่องผิงฟรือญาติของเรา ผิงว่าโทรคุยกันดีกว่าค่ะ เพื่อความแน่ใจว่าไม่ใช่คนอื่นปลอมเป็นญาติ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:45"
+        },
+
+
+         {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ไม่เคยคิดเลยว่าพวกนี้มันจะทำเนียนขนาดนี้",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:45"
+        },
+         {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " โชคดีจริงๆที่{type}นึกสงสัยขึ้นมา",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:45"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เดี๋ยวนี้ทำเนียนมากจริงๆค่ะ เราต้องรู้เท่าทัน",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story1-21",
+	"showTime":"12:45"
+        }
+    ]
+}

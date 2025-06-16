@@ -1,0 +1,7 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1749632168111,22.90878,choice-bank1-1,15.30196,เปิดธนาคาร,False
+1749632175045,41.21225,choice-bank1-1,3.932945,กดโอนเงิน,False
+1749632177103,41.21225,choice-bank1-1,5.99065,กดโอนเงิน,False
+1749632177801,41.21225,choice-bank1-1,6.688942,กดโอนเงิน,False
+1749632195150,48.15206,choice-bank1-1,17.09908,กดโอนเงิน,False
+1749632232526,48.15206,choice-bank1-1,54.4336,โอนเงิน,True

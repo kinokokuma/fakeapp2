@@ -1,0 +1,164 @@
+{"ID": "chat-01",
+"ChatName": "น้องผิงผิง",
+"Icon": [
+    "Image/Story1/ping"
+],
+    "DataDetail": [
+         {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิงผิงช่วยเช็คเลขอย.ให้{type}หน่อยได้ไหม",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:00"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ได้ค่ะ เลขอะไรคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:01"
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " 10-5-00268-1-0625",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:02"
+        },{
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แปปนึงนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:03"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผิงหาไม่เจอนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:04"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เลขตัวที่3 ผิงว่ารหัสมันไม่มีเลข 5 นะคะมีแค่ 1-4",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:05"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "{type}{name}จะซื้ออะไรหรอคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:06"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " สมุนไพรแก้ปวดเข่าจ้า",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:07"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผิงหาเลขอย.นี้ไม่เจอนะคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:08"
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ตรวจดีแล้วใช่ไหม มันเป็นสมุนไพรพื้นบ้าน",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:09"
+        },{
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผิงลองหาดูแล้วยังไงก็ไม่เจอค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:10"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ผิงผิง",
+            "Icon": "Image/Story1/ping",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หรือเพราะเป็นสมุนไพรเลยหาไม่เจอ ผิงไม่แน่ใจค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:11"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "ซื้อ",
+                    "LinkType": "chat",
+                    "FileName": "story1-16-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ไม่ซื้อ",
+                    "LinkType": "chat",
+                    "FileName": "story1-16-2"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "story1-2-1",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

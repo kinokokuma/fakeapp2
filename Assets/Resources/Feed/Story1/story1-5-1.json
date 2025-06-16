@@ -1,0 +1,78 @@
+{"ID": "chat-02",
+"ChatName": "กลุ่มชมรมผู้สูงอายุ",
+"Icon": [
+    "Image/Story1/ผิงผิง"
+],
+    "DataDetail": [
+       
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " เจอกันที่ศาลาวัดตอนเก้าโมง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:40"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "แม้น",
+            "Icon": "Image/Story1/man",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ดีเลย ยิ่งเดี๋ยวนี้เดินนิดเดินหน่อยก็ปวดขา",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "แม้น",
+            "Icon": "Image/Story1/man",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เจอที่ศาลาจะได้มีที่นั่งรอ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:41"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " งั้นไว้เจอกัน พกหมวกไปด้วยล่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:42"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แดดแรง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"06:43"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "แม้น",
+            "Icon": "Image/Story1/man",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "จ้า",
+            "PostImage": "",
+            "LinkToPageName": "",
+            "LinkType": "chat",
+            "FileName": "story1-6",
+	"showTime":"06:44"
+
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
+1749040587786,53.02822,choice-chat-01-story1-1,1.185867,ขนมจีบ,False
+1749040984320,47.48682,choice-chat-01-story1-1,3.693565,ขนมจีบ,False
+1749041294532,49.08496,choice-chat-01-story1-1,10.03883,ขนมจีบ,False
+1749632077290,40.17924,choice-bank1-1,1.358498,เปิดธนาคาร,False
+1749636976609,103.2978,choice-bank1-1,5.235474,เปิดธนาคาร,False
+1749637003791,111.5343,choice-bank1-1,24.18051,กดโอนเงิน,False

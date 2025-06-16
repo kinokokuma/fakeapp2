@@ -73,7 +73,7 @@ public class PostPopup : BasePopUp
         {
             var poseTexture = Resources.Load<Texture2D>($"Image/PostImage/{data.PostImage}");
             postImage.gameObject.SetActive(true);
-            postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            //postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
         }
         else
         {
@@ -95,8 +95,8 @@ public class PostPopup : BasePopUp
             click.onClick.AddListener(json.click);
         }
 
-        StartCoroutine(json.UpdateLayoutGroup());
-        StartCoroutine(UpdateLayoutGroup(layout, 2));
+       // StartCoroutine(json.UpdateLayoutGroup());
+        //StartCoroutine(UpdateLayoutGroup(layout, 2));
     }
 
     public void ShowAllText(GameObject button)

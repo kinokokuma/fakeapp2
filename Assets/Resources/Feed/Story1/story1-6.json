@@ -1,0 +1,320 @@
+{"ID": "chat-03",
+"ChatName": "ดร.ชัย",
+"Icon": [
+    "Image/Story1/chai"
+],
+    "DataDetail": [
+        {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": " 07:10",
+        "PostImage": "",
+        "LinkToPageName": "",
+	"showTime":"07:15"
+    },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "สวัสดีครับคุณ{type} ผมชื่อชัยนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:15"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เราอยู่ในกลุ่มดูแลสุขภาพเดียวกันครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:16"
+
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " อ๋อ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:16"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " {type}จำได้",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:17"
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ใช่คนที่ส่งข้อมูลสุขภาพมาในกลุ่มอยู่บ่อยๆ ใช่ไหม",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:17"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ใช่ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:18"
+
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วมีเรื่องอะไรจะคุย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:18"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผมขออภัยที่ทักมาโดยตรงนะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:19"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผมเห็นคุณ{type}เคยคอมเมนต์ในกลุ่มว่าปวดเข่าอยู่บ่อยๆ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:19"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แล้วบังเอิญผมกำลังทำโปรเจกต์ที่เกี่ยวข้องอยู่พอดีครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:20"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เลยอยากแนะนำโปรเจกต์ดี ๆ ที่อาจเป็นประโยชน์ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:21"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " โปรเจกต์อะไรหรอ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:22"
+        },  
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ตอนนี้ผมกำลังช่วยดูแลโครงการของศูนย์สุขภาพผู้สูงวัยอยู่ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:23"
+
+        },   
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "กำลังทำโครงการร่วมทุนกับทีมแพทย์มืออาชีพอยู่ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:24"
+
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "จะเป็นแพทย์ไทยที่จบจากต่างประเทศครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:25"
+
+        },
+         {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ผมเองก็จบจากต่างประเทศเลยมีเพื่อนหมอที่ต่างประเทศเยอะครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:26"
+
+        },
+         {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ตอนนี้พวกเรากำลังพัฒนายาและหาวิธีการรักษาแบบไม่ต้องผ่าตัดกันอยู่ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:27"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ดีมากเลย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:28"
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้ว{type}จะช่วยอะไรได้ล่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:29"
+        }, 
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ตอนนี้เรากำลังหาผู้ร่วมทุนอยู่ครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ร่วมเป็นผู้สมทบเงินทุนในการดำเนินงาน",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โดยหากคุณ{type}ร่วมเป็นผู้ร่วมทุนก็จะได้ผลตอบแทนด้วยครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "ดร.ชัย",
+            "Icon": "Image/Story1/chai",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ประมาณ 10% ต่อเดือนครับ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"07:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "ถามเรื่องผลตอบแทน",
+                    "LinkType": "chat",
+                    "FileName": "story1-7-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ถามเรื่องผู้ร่วมทุนคนอื่นๆ",
+                    "LinkType": "chat",
+                    "FileName": "story1-7-2"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ขอข้อมูลของโปรเจกต์",
+                    "LinkType": "chat",
+                    "FileName": "story1-7-3"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "story1-2-1",
+            "LinkType": "",
+            "FileName": ""
+        }
+    ]
+}

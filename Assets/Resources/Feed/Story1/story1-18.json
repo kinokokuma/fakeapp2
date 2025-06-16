@@ -1,0 +1,380 @@
+{"ID": "chat-05",
+"ChatName": "p.",
+"Icon": [
+    "Image/Story1/p"
+],
+    "DataDetail": [
+        {
+        "ID": "chat-01",
+        "OnwerName": "my",
+        "Icon": "",
+        "ChatType": "Time",
+        "DelayTime": 0,
+        "Content": " 12:30",
+        "PostImage": "",
+        "LinkToPageName": ""
+    },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "สวัสดีค่ะ พอดีว่าโทรศัพท์อีกเครื่องมีปัญหาเลยใช้ไลน์อีกอันนึงทักมาค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ใครคะ ผิงผิงหรอ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:30"
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ใช่ค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:30"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " ผิงผิงจะถึงรึยัง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:31"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " รถติดหรอทำไมนานจัง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:31"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " หรือพ่อกับแม่พาแวะที่ไหน",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:31"
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พอดีว่ารถชนค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:31"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "โทรศัพท์อีกเครื่องพังเพราะรถชนแรงมากค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:32"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เลยต้องใช้อีกเครื่องทักมา",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:32"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ตอนนี้หนูอยู่ที่โรงพยาบาล",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:32"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พ่อกับแม่เจ็บหนักค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:33"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หนูไม่รู้จะติดต่อใครเลยทักมาหาคุณ{type}",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:33"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " แล้วตอนนี้พ่อกับแม่เป็นยังไงบ้าง",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:33"
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " มีอะไรให้{type}ช่วยไหม",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:33"
+        }
+        ,
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "สวัสดีค่ะ พอดีว่าโทรศัพท์อีกเครื่องมีปัญหาเลยใช้ไลน์อีกอันนึงทักมาค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:34"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "พ่อกับแม่ต้องเข้าผ่าตัดค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:34"
+
+        }
+        ,
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "แต่คิวผ่าตัดที่โรงพยาบาลเยอะมาก",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:34"
+
+        }
+        ,
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "เขาบอกว่าถ้าวางเงินค่ามัดจำ จะให้พ่อกับแม่เข้าผ่าคิวแรก",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:35"
+
+        }
+        ,
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หนูรีบขึ้นรถพยาบาลมาพร้อมพ่อแม่ ไม่ได้หยิบกระเป๋าตังติดมาด้วย แต่เขาบอกว่าต้องจ่ายตอนนี้เลย",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:35"
+
+        }
+        ,
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าไม่จ่ายภายใน 30 นาทีอาจจะต้องรออีกนานเลยค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:35"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หนูไม่รู้จะทำยังไง พ่อกับแม่เจ็บหนักมาๆ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:35"
+
+        },
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": " เขาให้จ่ายเท่าไร",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:36"
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "18,000 บาทค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:36"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "คุณ{type}คะ หนูรบกวนช่วยหนูได้ไหม",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:36"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "รบกวนช่วยโอนให้หนูก่อนได้ไหมคะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:37"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "หนูรู้ว่าเยอะ แต่หนูไม่รู้จะขอใครแล้วจริง ๆ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:37"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ถ้าพ่อกับแม่ได้ผ่าตัดแล้วหนูจะคืนให้ทันทีเลยค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:37"
+
+        },
+    {
+            "ID": "chat-01",
+            "OnwerName": "p.",
+            "Icon": "Image/Story1/p",
+            "ChatType": "Normal",
+            "DelayTime": 1,
+            "Content": "ขอร้องนะคะ เขาให้เวลาไม่มาก ต้องรีบจ่ายจริง ๆ ค่ะ",
+            "PostImage": "",
+            "LinkToPageName": "",
+	"showTime":"12:37"
+
+        }
+        ,
+        {
+            "ID": "chat-01",
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Normal",
+            "DelayTime": 2,
+            "Content": "",
+            "Choice": [
+                {
+                    "ID": "001",
+                    "Path": "โอน",
+                    "LinkType": "chat",
+                    "FileName": "story1-19-1"
+                },
+                {
+                    "ID": "001",
+                    "Path": "ไม่โอน",
+                    "LinkType": "chat",
+                    "FileName": "story1-19-2"
+                }
+            ],
+            "PostImage": "",
+            "LinkToPageName": "story1-2-1",
+            "LinkType": "",
+            "FileName": ""
+        }
+
+    ]
+}

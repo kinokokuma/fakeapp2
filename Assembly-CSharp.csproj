@@ -139,6 +139,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\ThaiTextCare-for-Unity-main\Resources\dictionary.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -770,6 +771,16 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PhEngine.ThaiTextCare.csproj">
+      <Project>{796360D4-05C9-78AB-2483-93A580BC0F78}</Project>
+      <Name>PhEngine.ThaiTextCare</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PhEngine.ThaiTextCare.Editor.csproj">
+      <Project>{163E30D0-DA84-9D8E-4241-E7178C677D94}</Project>
+      <Name>PhEngine.ThaiTextCare.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
