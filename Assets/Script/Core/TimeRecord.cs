@@ -5,7 +5,6 @@ using System.Text;
 using System.IO;
 using System;
 using UnityEngine.UI;
-using UnityEngine.iOS;
 
 public class TimeRecord : MonoSingleton<TimeRecord>
 {

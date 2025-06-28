@@ -422,11 +422,11 @@ public class ChatPopup : BasePopUp
     private IEnumerator OnClickTextChoice(ChoiceText choiceText, ChatDataDetail data)
     {
         HintChoice();
-        ChatObjectBase chat = Instantiate(chatobject, chatParent);
-        chat.gameObject.SetActive(true);
-        chat.isSingle = data.Icon.Length >= 2 ? false : true;
+       // ChatObjectBase chat = Instantiate(chatobject, chatParent);
+       // chat.gameObject.SetActive(true);
+      //  chat.isSingle = data.Icon.Length >= 2 ? false : true;
         ChatDataDetail dataDetail = new ChatDataDetail();
-        chatObject.Add(chat);
+       // chatObject.Add(chat);
         dataDetail.OnwerName = "my";
         dataDetail.Icon = string.Empty;
         dataDetail.Content = data.Content.Replace("{0}", choiceText.Path);
@@ -441,7 +441,7 @@ public class ChatPopup : BasePopUp
 
         TimeRecord.Instance.SaveRecord(this.data.ID+"-"+manager.CurrentJsonName, choiceText.Path, timeToShowQuestion, choiceText.IsSignificant);
 
-        chat.Initialized(dataDetail, this, manager);
+        //chat.Initialized(dataDetail, this, manager);
         QuestionObject.gameObject.SetActive(false);
 
 

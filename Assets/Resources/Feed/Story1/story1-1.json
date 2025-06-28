@@ -43,7 +43,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " {type}นึกว่าออกมาตั้งนานแล้ว",
+            "Content": "{type}นึกว่าออกมาตั้งนานแล้ว",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:01"
@@ -54,7 +54,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " {type}ไม่เอาอะไรหรอกลูก",
+            "Content": "{type}ไม่เอาอะไรหรอกลูก",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:01"
@@ -65,7 +65,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " วันหยุดยาวคนกลับบ้านเยอะ รถจะติด",
+            "Content": "วันหยุดยาวคนกลับบ้านเยอะ รถจะติด",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:02"
@@ -76,7 +76,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " เดี๋ยวจะเสียเวลาอีก",
+            "Content": "เดี๋ยวจะเสียเวลาอีก",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:02"
@@ -98,7 +98,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " พ่อกับแม่เขาอยากซื้ออะไรมาฝากก็แล้วแต่ พ่อกับแม่เขานั่นแหละ",
+            "Content": "พ่อกับแม่เขาอยากซื้ออะไรมาฝากก็แล้วแต่ พ่อกับแม่เขานั่นแหละ",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:03"
@@ -131,7 +131,7 @@
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "จริงๆ น่าจะผ่านตลาดที่วัดแถวบ้านด้วยนะคะ {type}{name}อยากแวะซื้อผลไม้เข้าไปไหมคะ",
+            "Content": "จริงๆ น่าจะผ่านตลาดที่วัดแถวบ้านด้วยนะคะ {type}{name} อยากให้แวะซื้อผลไม้เข้าไปไหมคะ",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"06:05"

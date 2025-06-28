@@ -2227,6 +2227,7 @@ MonoBehaviour:
   SP1Button: {fileID: 2137508162}
   SP2Button: {fileID: 1048478745}
   OldChatname: 
+  IDPath: []
 --- !u!222 &408917893
 CanvasRenderer:
   m_ObjectHideFlags: 0

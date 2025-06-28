@@ -1,6 +1,7 @@
 {"ID": "chat-02",
 "ChatName": "กลุ่มชมรมผู้สูงอายุ",
 "Icon": [
+    "Image/Story1/old",
     "Image/Story1/old"
 ],
     "DataDetail": [
@@ -211,7 +212,7 @@
             "Icon": "Image/Story1/pong",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ถ้าจะสั่งแอดไลนื @herbmed พิมพ์แบบนี้ เขามีเจ้าหน้าที่ตอบตลอด",
+            "Content": "ถ้าจะสั่งแอดไลน์ @herbmed พิมพ์แบบนี้ เขามีเจ้าหน้าที่ตอบตลอด",
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",
