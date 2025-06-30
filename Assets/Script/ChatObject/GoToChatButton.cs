@@ -30,7 +30,7 @@ public class GoToChatButton : MonoBehaviour
         }
         else
         {
-            image.sprite = ImageManager.Instance.LoadImage($"Image/{UserData.Story}/GP");
+            image.sprite = ImageManager.Instance.LoadImage(data.Icon[0]);
         }
         button.onClick.AddListener(click);
     }
