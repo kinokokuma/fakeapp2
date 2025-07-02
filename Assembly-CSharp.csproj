@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3C9F6004-31B5-9A1C-1C41-90D2E107CD8A}</ProjectGuid>
+    <ProjectGuid>{49BD2BFB-C624-2632-FC3C-4E3F3A858A09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,17 +54,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\PopUp\S1\bank1Popup.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Script\PopUp\S1\Group2Popup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Script\PopUp\S3\S3page2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Script\Core\BasePopUp.cs" />
     <Compile Include="Assets\Script\Core\ImageManager.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
     <Compile Include="Assets\Script\ChatObject\ChatObjectBase.cs" />
     <Compile Include="Assets\Script\PopUp\S3\S3Page1.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
     <Compile Include="Assets\Script\PopUp\S2\S2Page1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Script\PopUp\End.cs" />
@@ -87,6 +91,7 @@
     <Compile Include="Assets\Script\PopUp\S3\S3_5_day.cs" />
     <Compile Include="Assets\Script\MakeAllUseResourcesPath.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
     <Compile Include="Assets\Script\PopUp\S1\OldStoryChat.cs" />
     <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -96,6 +101,7 @@
     <Compile Include="Assets\Script\PopUp\QuestPopUp.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -129,12 +135,6 @@
     <Compile Include="Assets\Script\Core\ChatData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
-    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -379,12 +379,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:\unity\2020.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:\unity\2020.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\unity\2020.3.26f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -731,59 +725,71 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:\unity\2020.3.26f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.003">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.003.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VectorGraphics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VectorGraphics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.003">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.003.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VectorGraphics">
-      <HintPath>Library\ScriptAssemblies\Unity.VectorGraphics.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{714CAE14-EC31-1738-7785-889B130CFDDD}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.003.csproj">
+      <Project>{9EC9DBF7-B79E-6ACB-D46E-0BD105AF5203}</Project>
+      <Name>Unity.InternalAPIEditorBridge.003</Name>
+    </ProjectReference>
     <ProjectReference Include="PhEngine.ThaiTextCare.csproj">
-      <Project>{796360D4-05C9-78AB-2483-93A580BC0F78}</Project>
+      <Project>{1FFD5932-D3A5-DE2B-F6EC-BD6C44FE9294}</Project>
       <Name>PhEngine.ThaiTextCare</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{9790A88B-B204-24C6-0597-263A5F05C775}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{2D808E6F-A5CE-90CB-3E98-E69B6EAE364E}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{EDBCE63D-1FDD-4FAC-E994-2A10B53431B1}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{8409D393-1DA5-DEAA-C01E-38A3F19FC174}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{9870635E-2DB0-14A5-1FAB-8C4249B18A69}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VectorGraphics.Editor.csproj">
+      <Project>{28EEC20F-2BD9-AAC7-69F5-C676031C320D}</Project>
+      <Name>Unity.VectorGraphics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.003.csproj">
+      <Project>{021237C1-EFE8-3158-8A85-11F756677C0D}</Project>
+      <Name>Unity.InternalAPIEngineBridge.003</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VectorGraphics.csproj">
+      <Project>{739776C0-3DFF-ACF8-F240-9D31F37818E9}</Project>
+      <Name>Unity.VectorGraphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{AAC548DD-8158-748A-D75F-9041B0D3F00B}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{E18F406A-4952-304E-D561-92632136001C}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="PhEngine.ThaiTextCare.Editor.csproj">
-      <Project>{163E30D0-DA84-9D8E-4241-E7178C677D94}</Project>
+      <Project>{4B16BD33-8E32-428C-44D9-C7ED376EBEE4}</Project>
       <Name>PhEngine.ThaiTextCare.Editor</Name>
     </ProjectReference>
   </ItemGroup>

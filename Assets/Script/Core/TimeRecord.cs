@@ -56,12 +56,21 @@ public class TimeRecord : MonoSingleton<TimeRecord>
             sb.AppendLine(string.Join(delimiter, output[index]));
         }
 
-        string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
+        string filePath = getPath();
+        print(getPath());
+        string directoryPath = $"{Application.persistentDataPath}/CSV";
+        if (!Directory.Exists(directoryPath))
+        {
+            Directory.CreateDirectory(directoryPath);
+        }
+
         if (!File.Exists(getPath()))
         {
+            print("xxxx");
             StreamWriter outStream = System.IO.File.CreateText(getPath());
             outStream.Write(sb);
             outStream.Close();
+            getPath();
         }
         
       //  File.WriteAllText(getPath(), sb.ToString());
@@ -102,7 +111,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         for (int index = 0; index < length; index++)
             sb.AppendLine(string.Join(delimiter, output[index]));
 
-        string filePath = Application.dataPath + "/CSV/" + UserData.Story+"_"+UserData.Solution+ "_" + UserData.UserID + ".csv";
+        string filePath = getPath();
         StreamWriter outStream = System.IO.File.AppendText(getPath());
         outStream.Write(sb);
         outStream.Close();
@@ -136,7 +145,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         for (int index = 0; index < length; index++)
             sb.AppendLine(string.Join(delimiter, output[index]));
 
-         string filePath = Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution + "_" + UserData.UserID + "_Log.csv";
+         string filePath = getPath("_Log.csv");
          StreamWriter outStream = System.IO.File.AppendText(getPath("_LOG"));
          outStream.Write(sb);
          outStream.Close();

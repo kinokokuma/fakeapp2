@@ -12,7 +12,7 @@ public class MakeAllUseResourcesPath : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        CreatePlayerCsv();
+        //CreatePlayerCsv();
     }
 
     public void CreatePlayerCsv()
