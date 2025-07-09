@@ -160,7 +160,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " แล้วตอนนี้พ่อกับแม่เป็นยังไงบ้าง",
+            "Content": "แล้วตอนนี้พ่อกับแม่เป็นยังไงบ้าง",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:33"
@@ -177,18 +177,6 @@
 	"showTime":"12:33"
         }
         ,
-    {
-            "ID": "chat-01",
-            "OnwerName": "p.",
-            "Icon": "Image/Story1/p",
-            "ChatType": "Normal",
-            "DelayTime": 1,
-            "Content": "สวัสดีค่ะ พอดีว่าโทรศัพท์อีกเครื่องมีปัญหาเลยใช้ไลน์อีกอันนึงทักมาค่ะ",
-            "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"12:34"
-
-        },
     {
             "ID": "chat-01",
             "OnwerName": "p.",

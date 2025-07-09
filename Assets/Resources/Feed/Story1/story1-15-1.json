@@ -10,7 +10,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " ผิงผิงช่วยเช็คเลขอย.ให้{type}หน่อยได้ไหม",
+            "Content": "ผิงผิงช่วยเช็คเลขอย.ให้{type}หน่อยได้ไหม",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:00"

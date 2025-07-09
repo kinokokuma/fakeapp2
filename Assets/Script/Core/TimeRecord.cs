@@ -92,7 +92,7 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         rowDataTemp[1] = startTime.ToString();
         rowDataTemp[2] = "choice-"+ID.ToString();
         rowDataTemp[3] = (Time.time - startTime).ToString();
-        rowDataTemp[4] = Ans.Replace("\n"," ");
+        rowDataTemp[4] = Ans.Replace("\n"," ").Replace(",","");
         rowDataTemp[5] = isSignificant.ToString();
         rowData.Add(rowDataTemp);
 

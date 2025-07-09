@@ -11,7 +11,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " วันนี้{type}คุยกับคนนั้นคนนี้เต็มไปหมด",
+            "Content": "วันนี้{type}คุยกับคนนั้นคนนี้เต็มไปหมด",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:46"

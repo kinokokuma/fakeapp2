@@ -1,144 +1,119 @@
-{"ID": "chat-01",
-"ChatName": "น้องผิงผิง",
-"Icon": [
-    "Image/Story1/ping"
-],
+{
+    "ID": "chat-01",
+    "ChatName": "น้องผิงผิง",
+    "Icon": [
+        "Image/Story1/ping"
+    ],
     "DataDetail": [
         {
-        "ID": "chat-01",
-        "OnwerName": "my",
-        "Icon": "",
-        "ChatType": "Time",
-        "DelayTime": 0,
-        "Content": " 06:00",
-        "PostImage": "",
-        "LinkToPageName": "",
-	"showTime":""
-    },
+            "OnwerName": "my",
+            "Icon": "",
+            "ChatType": "Time",
+            "DelayTime": 0,
+            "Content": " 06:00",
+            "PostImage": "",
+            "showTime": ""
+        },
         {
-            "ID": "chat-01",
             "OnwerName": "ผิงผิง",
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "สวัสดีค่ะ{type}{name} จะฝากซื้ออะไรไหมคะ ผิงกำลังจะออกเดินทางแล้วค่ะ",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:00"
+            "showTime": "06:00"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": " อ้าว ยังไม่ออกเดินทางอีกหรอ",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:00"
+            "showTime": "06:00"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "{type}นึกว่าออกมาตั้งนานแล้ว",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:01"
+            "showTime": "06:01"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "{type}ไม่เอาอะไรหรอกลูก",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:01"
+            "showTime": "06:01"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "วันหยุดยาวคนกลับบ้านเยอะ รถจะติด",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:02"
+            "showTime": "06:02"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "เดี๋ยวจะเสียเวลาอีก",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:02"
+            "showTime": "06:02"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "ผิงผิง",
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "ไม่เสียเวลาหรอกค่ะ เดี๋ยวพ่อกับแม่ก็แวะซื้อของไปฝากอยู่ดี",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:03"
+            "showTime": "06:03"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "พ่อกับแม่เขาอยากซื้ออะไรมาฝากก็แล้วแต่ พ่อกับแม่เขานั่นแหละ",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:03"
+            "showTime": "06:03"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "ผิงผิง",
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "งั้นเอาขนมเค้กไหมคะ ร้านข้างทางแวะง่ายดี",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:04"
+            "showTime": "06:04"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "ผิงผิง",
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "หรือว่าจะเป็นขนมจีบ ที่เคยซื้อเป็นประจำดีคะ",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:04"
+            "showTime": "06:04"
         },
         {
-            "ID": "chat-01",
             "OnwerName": "ผิงผิง",
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
             "Content": "จริงๆ น่าจะผ่านตลาดที่วัดแถวบ้านด้วยนะคะ {type}{name} อยากให้แวะซื้อผลไม้เข้าไปไหมคะ",
             "PostImage": "",
-            "LinkToPageName": "",
-	"showTime":"06:05"
-        }
-        ,
+            "showTime": "06:05"
+        },
         {
-            "ID": "chat-01",
             "OnwerName": "my",
             "Icon": "",
             "ChatType": "Normal",
@@ -146,28 +121,22 @@
             "Content": "",
             "Choice": [
                 {
-                    "ID": "001",
                     "Path": "เค้ก",
                     "LinkType": "chat",
                     "FileName": "story1-2-1"
                 },
                 {
-                    "ID": "001",
                     "Path": "ขนมจีบ",
                     "LinkType": "chat",
                     "FileName": "story1-2-2"
                 },
                 {
-                    "ID": "001",
                     "Path": "ผลไม้",
                     "LinkType": "chat",
                     "FileName": "story1-2-3"
                 }
             ],
-            "PostImage": "",
-            "LinkToPageName": "story1-2-1",
-            "LinkType": "",
-            "FileName": ""
+            "PostImage": ""
         }
     ]
 }

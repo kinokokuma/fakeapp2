@@ -74,7 +74,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " เมื่อกี้มีคนทักมาบอกว่าเป็นผิงแล้วบอกรถชน",
+            "Content": "เมื่อกี้มีคนทักมาบอกว่าเป็นผิงแล้วบอกรถชน",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:40"
@@ -195,7 +195,7 @@
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ถ้าข้อมูลหรือขอให้เขาส่งรูป หรือวิดีโอคอล ถ้าอ้างว่าไม่ได้ตลอด อาจน่าสงสัย",
+            "Content": "ถ้าขอข้อมูลหรือขอให้เขาส่งรูป หรือวิดีโอคอล ถ้าอ้างว่าไม่ได้ตลอด อาจน่าสงสัย",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:43"

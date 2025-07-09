@@ -1,13 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3C9F6004-31B5-9A1C-1C41-90D2E107CD8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhEngine.ThaiTextCare", "PhEngine.ThaiTextCare.csproj", "{796360D4-05C9-78AB-2483-93A580BC0F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhEngine.ThaiTextCare.Editor", "PhEngine.ThaiTextCare.Editor.csproj", "{163E30D0-DA84-9D8E-4241-E7178C677D94}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{630551CA-65BE-0D7C-F364-E824B8B586DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhEngine.ThaiTextCare.Editor", "PhEngine.ThaiTextCare.Editor.csproj", "{163E30D0-DA84-9D8E-4241-E7178C677D94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		{796360D4-05C9-78AB-2483-93A580BC0F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796360D4-05C9-78AB-2483-93A580BC0F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{796360D4-05C9-78AB-2483-93A580BC0F78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Release|Any CPU.Build.0 = Release|Any CPU
 		{630551CA-65BE-0D7C-F364-E824B8B586DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{630551CA-65BE-0D7C-F364-E824B8B586DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630551CA-65BE-0D7C-F364-E824B8B586DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630551CA-65BE-0D7C-F364-E824B8B586DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163E30D0-DA84-9D8E-4241-E7178C677D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

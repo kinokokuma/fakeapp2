@@ -75,7 +75,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " เมื่อกี้มีคนทักมาบอกว่าเป็นผิงแล้วบอกรถชน",
+            "Content": "เมื่อกี้มีคนทักมาบอกว่าเป็นผิงแล้วบอกรถชน",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:40"
@@ -152,7 +152,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " แต่{type}แปลกใจว่าทำไมเขาให้โอนเงินค่ารักษาก่อน ถึงจะผ่าตัดได้",
+            "Content": "แต่{type}แปลกใจว่าทำไมเขาให้โอนเงินค่ารักษาก่อน ถึงจะผ่าตัดได้",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:42"
@@ -185,7 +185,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " แต่พอแล้วก็อ่านไม่ตอบเลย",
+            "Content": " แต่พอส่งแล้วก็อ่านไม่ตอบเลย",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:43"
@@ -240,7 +240,7 @@
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ถ้าข้อมูลหรือขอให้เขาส่งรูป หรือวิดีโอคอล ถ้าอ้างว่าไม่ได้ตลอด อาจน่าสงสัย",
+            "Content": "ถ้าขอข้อมูลหรือขอให้เขาส่งรูป หรือวิดีโอคอล ถ้าอ้างว่าไม่ได้ตลอด อาจน่าสงสัย",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:45"
@@ -251,7 +251,7 @@
             "Icon": "Image/Story1/ping",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "แต่ถ้าเป็นเรื่องผิงฟรือญาติของเรา ผิงว่าโทรคุยกันดีกว่าค่ะ เพื่อความแน่ใจว่าไม่ใช่คนอื่นปลอมเป็นญาติ",
+            "Content": "แต่ถ้าเป็นเรื่องผิงหรือญาติของเรา ผิงว่าโทรคุยกันดีกว่าค่ะ เพื่อความแน่ใจว่าไม่ใช่คนอื่นปลอมเป็นญาติ",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:45"
@@ -264,7 +264,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " ไม่เคยคิดเลยว่าพวกนี้มันจะทำเนียนขนาดนี้",
+            "Content": "ไม่เคยคิดเลยว่าพวกนี้มันจะทำเนียนขนาดนี้",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:45"
