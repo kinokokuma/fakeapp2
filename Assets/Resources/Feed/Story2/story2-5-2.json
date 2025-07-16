@@ -1,0 +1,47 @@
+{
+  "ID": "chat-03",
+  "ChatName": "รุ่นสุดท้าย - ลงทุนวัยเกษียณอย่างปลอดภัย(43)",
+  "Icon": [
+    "Image/Story2/wirun"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ส่งสลิป",
+      "PostImage": "",
+      "showTime": "11:30"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขอบคุณคุณ{name}นะคะ ระหว่างรอทุกคนโอนเงินอยู่ ฝนขอเรียนแจ้งข้อมูลเงินกำไรนะคะ เงินกำไรจะถูกโอนเข้าทุกวันอาทิตย์นะคะ  โดยจะถูกโอนเข้าบัญชีที่ทุกท่านทำการลงทะเบียนยืนยันตัวตนกับฝนไว้ค่ะ",
+      "PostImage": "",
+      "showTime": "11:31"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ส่วนเงินต้นที่ลงทุนมาจะวนอยู่ในระบบตลอดถ้าต้องการที่จะเพิ่มจำนวนเงินลงทุนสามารถติดต่อฝนได้ตลอดค่ะ",
+      "PostImage": "",
+      "showTime": "11:32"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "สำหรับวันนี้ฝนขออนุญาตเรียนแจ้งแค่นี้ค่ะหากใครมีข้อสงสัยหรือมีปัญหาสามารถทักมาฝนในไลน์กลุ่มหรือไลน์ส่วนตัวก็ได้นะคะ",
+      "PostImage": "",
+      "showTime": "11:32",
+      "LinkType": "chat",
+      "FileName": "story2-7"
+    }
+  ]
+}

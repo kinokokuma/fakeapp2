@@ -1,0 +1,30 @@
+{
+  "ID": "chat-05",
+  "ChatName": "choice",
+  "Icon": [
+    ""
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "เค้ก",
+          "LinkType": "chat",
+          "FileName": "story1-2-1"
+        },
+        {
+          "Path": "เค้ก",
+          "LinkType": "chat",
+          "FileName": "story1-2-1"
+        }
+      ],
+      "PostImage": "",
+      "showTime": ""
+    }
+  ]
+}

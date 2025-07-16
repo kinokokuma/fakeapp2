@@ -1,0 +1,174 @@
+{
+  "ID": "chat-06",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND",
+     "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันขอถามอะไรหน่อยสิ มีใครที่เจ้าหน้าที่กรมที่ดินติดต่อไปบ้างไหม",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เมื่อกี้มีเจ้าหน้าที่โทรมา บอกว่าเป็นเจ้าหน้าที่จากกรมที่ดิน",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เขาบอกให้กรอกข้อมูลอัปเดตระบบใหม่",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เจ้าหน้าที่รัฐจะไม่โทรติดต่อหาเราก่อน นะ น่าจะเป็นมิจฉาชีพล่ะสิ",
+      "PostImage": "",
+      "showTime": "13:11"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มีให้โหลดแอปรึเปล่า",
+      "PostImage": "",
+      "showTime": "13:11"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ ฉันโหลดมาแล้วกำลังจะสมัครสมาชิก แต่ว่ามาถามทุกคนก่อนดีกว่า",
+      "PostImage": "",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ห้ามกรอกข้อมูลส่วนตัวอะไรลงไปในแอปเด็ดขาด",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "รีบลบแอปด้วย",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "เจ้าหน้าที่เขาจะไม่ติดต่อหาเราก่อน",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ในข่าวเขาเตือนกันเยอะแยะเลย",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "คราวหลังต้องระวัง",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "แหม พูดเยอะเชียวนะ",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ลองใช้ส่วนลดดูรึยัง ฉันว่าใช้ไม่ได้แน่",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story2/VV",
+      "showTime": "13:14"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ดีนะที่มาถามก่อนไม่งั้นแย่แน่",
+      "showTime": "13:15"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "คราวหลังต้องระวังมากกว่านี้",
+      "PostImage": "",
+      "showTime": "13:15",
+      "LinkType": "chat",
+      "FileName": "story2-19"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "ID": "chat-06",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND",
+     "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ช่วยด้วยจู่ ๆ เงินก็โอนออกเองทำยังไงดี",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "โทรไปหาที่ธนาคารก่อนให้อายัดบัญชี",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวเงินจะออกไปมากกว่านี้",
+      "PostImage": "",
+      "showTime": "13:10"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "แล้วก็ไปแจ้งความ",
+      "PostImage": "",
+      "showTime": "13:11"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ทำไมโดนดูดเงิน ได้ไปบอกรหัสให้คนอื่นรึเปล่า",
+      "PostImage": "",
+      "showTime": "13:11"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "น่าจะเป็นพวกปลอมเป็นเจ้าหน้าที่กรมที่ดิน",
+      "PostImage": "",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เขาบอกให้ฉันโหลดแอปแล้วก็ใส่รหัส",
+      "PostImage": "",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันก็เผลอใส่รหัสที่เป็นรหัสธนาคารไป",
+      "PostImage": "",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เจ้าหน้าที่รัฐจะไม่โทรติดต่อหาเราก่อน ถ้ามีโทรมาให้รู้ว่าเป็นมิจฉาชีพ",
+      "PostImage": "",
+      "showTime": "13:12"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "รหัสธนาคารก็ไม่ควรไปบอกใครและก็ไม่ควรใช้เป็นรหัสเดียวกับที่เราใช้เป็นประจำหรืออะไรที่เดาง่าย ๆ เช่น การตั้งรหัสเป็นวันเกิด",
+      "PostImage": "",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "คราวหลังต้องระวัง",
+      "PostImage": "",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "แหม พูดเยอะเชียวนะ",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "showTime": "13:13"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "ลองใช้ส่วนลดดูรึยัง ฉันว่าใช้ไม่ได้แน่",
+      "showTime": "13:14"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "showTime": "13:15"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวกลับมาคุยนะ",
+      "PostImage": "",
+      "showTime": "13:15"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันออกไปแจ้งความก่อน",
+      "PostImage": "",
+      "showTime": "13:16",
+      "LinkType": "chat",
+      "FileName": "story2-19"
+    }
+  ]
+}

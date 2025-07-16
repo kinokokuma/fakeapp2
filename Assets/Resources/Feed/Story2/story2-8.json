@@ -1,0 +1,121 @@
+{
+  "ID": "chat-06",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND",
+     "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "www.shoppeee/survay/556451",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ลิงก์อะไรเล่าตาหาญ",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "อ่อ ลิงก์แบบสอบถามของ shopee เขาบอกให้กรอกแล้วจะได้ส่วนลด",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ส่วนลดเยอะไหม",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เขาเขียนว่าสูงสุด 50% แต่ฉันก็ได้แต่ 10% {name} ลองทำดูสิไม่มีอะไรเสียหาย 50%",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ทำแปปเดียวเอง",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ระบบจะให้เรากรอกชื่อ-ที่อยู่ เลขบัตรประชาชน วันเกิด แล้วก็เบอร์โทรไว้รับคูปองผ่าน SMS",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story2/WT",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มันต้องกรอกเลขบัตรประชาชนด้วยหรอ",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เขาว่าจะได้ยืนยันว่าเราเป็นผู้ใช้งานจริง ไม่ใช่หุ่นยนต์",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "กรอกข้อมูล",
+          "LinkType": "chat",
+          "FileName": "story2-10"
+        },
+        {
+          "Path": "ไม่กรอกข้อมูล",
+          "LinkType": "chat",
+          "FileName": "story2-9"
+        }
+      ],
+      "PostImage": "",
+      "showTime": ""
+    }
+  ]
+}

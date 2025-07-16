@@ -1,0 +1,29 @@
+{
+  "ID": "chat-04",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่เอาดีกว่ายุ่งยาก",
+      "PostImage": "",
+      "showTime": "12:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่ค่อยได้ซื้อของทาง shopee อยู่แล้ว",
+      "PostImage": "",
+      "showTime": "12:00",
+      "LinkType": "chat",
+      "FileName": "story2-11"
+    }
+  ]
+}

@@ -39,12 +39,12 @@ public class UserData : MonoBehaviour
 
     public void Start()
     {
+        DontDestroyOnLoad(this);
         next.onClick.AddListener(() => { User.SetActive(true); });
     }
 
     public void Update()
     {
-
         if (inputID.text == string.Empty)
         {
             next.interactable = false;
@@ -56,6 +56,7 @@ public class UserData : MonoBehaviour
         UserID = inputID.text;
         Solution = dropdownSolution.captionText.text;
         Story = dropdownStory.captionText.text;
+        print(Story);
         type.text = Solution.Split('_')[1];
         if (inputName.text == string.Empty)
         {
@@ -80,7 +81,6 @@ public class UserData : MonoBehaviour
         {
             des.text = story3Des;
         }
-        Story = "Story1";
     }
 
     void extract(string zipPath)

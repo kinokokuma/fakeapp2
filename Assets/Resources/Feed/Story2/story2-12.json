@@ -1,0 +1,128 @@
+{
+  "ID": "chat-05",
+  "ChatName": "บทสนทนาทางโทรศัพท์",
+  "Icon": [
+    "Image/Story1/tele"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ดิฉันนฤมล โทรมาจากกรมที่ดินนครปฐมนะคะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ทางกรมที่ดินกำลังดำเนินโครงการปรับปรุงฐานข้อมูลเจ้าของที่ดินทั่วประเทศ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "พบว่าข้อมูลที่ดินของยังไม่ได้ถูกอัพเดตเป็นข้อมูลปัจจุบันค่ะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "วันนี้จึงขออนุญาตติดต่อมาเพื่อดำเนินการอัปเดตค่ะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ตอนนี้คุณมีที่ดินขนาด 5 ไร่ 2 งาน เลขที่โฉนด 456125 ตั้งอยู่ที่ตำบลห้วยขวาง อำเภอกำแพงแสน จังหวัดนครปฐม ถูกต้องใช่ไหมคะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ค่ะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ตอนนี้ยังเป็นเจ้าของที่ดินอยู่ใช่ไหมคะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ค่ะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ดิฉันต้องขอนุญาตให้คุณอัพเดตข้อมูลเจ้าของที่ดินให้อีกครั้งเพื่อให้ข้อมูลเป็นปัจจุบันนะคะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ต้องทำยังไงบ้างคะ",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เพื่อความสะดวกรวดเร็วและลดการเดินทาง",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เรามีเจ้าหน้าที่ช่วยดูแลผ่านระบบออนไลน์",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "บทสนทนาทางโทรศัพท์",
+      "Icon": "Image/Story2/tele",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "รบกวนแอดไลน์ไปที่ @land.ntp.verify นะคะ เดี๋ยวจะมีเจ้าหน้าที่ดูแลต่อนะคะ",
+      "PostImage": "",
+      "showTime": "12:55",
+      "LinkType": "chat",
+      "FileName": "story2-13"
+    }
+  ]
+}

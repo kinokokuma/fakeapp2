@@ -1,0 +1,65 @@
+{
+  "ID": "chat-02",
+  "ChatName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+  "Icon": [
+    "Image/Story2/fon"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่เป็นไร",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่สมัครดีกว่าค่า",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เนื่องจากโปรเจกต์นี้เปิดรับสมัครรอบสุดท้ายแล้วค่ะ",
+      "PostImage": "",
+      "showTime": "11:21"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "แต่ถ้าคุณ{type}สนใจโปรเจกต์อื่น ๆ ที่จะมีในอนาคตติดต่อฝนที่ช่องทางนี้ได้เลยนะคะ",
+      "PostImage": "",
+      "showTime": "11:21"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฝนจะดูแลให้เป็นพิเศษค่ะ",
+      "PostImage": "",
+      "showTime": "11:21"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขอบคุณมาก",
+      "PostImage": "",
+      "showTime": "11:22",
+      "LinkType": "chat",
+      "FileName": "story2-7"
+    }
+  ]
+}

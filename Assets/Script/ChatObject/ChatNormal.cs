@@ -160,6 +160,7 @@ public class ChatNormal : ChatObjectBase
             time.text = data.Content;
             timeparent.SetActive(false);
             muteSound = true;
+            gameObject.SetActive(false);
         }
         else
         {

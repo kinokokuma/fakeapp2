@@ -259,7 +259,7 @@
             "Icon": "Image/Story1/man",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " ที่หลังจะชวนซื้ออะไรก็เช็กให้ดีด้วย",
+            "Content": " ทีหลังจะชวนซื้ออะไรก็เช็กให้ดีด้วย",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"13:08"
@@ -275,7 +275,7 @@
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "page",
-            "FileName": "end",
+            "FileName": "end1",
 	"showTime":"13:09"
 
         }

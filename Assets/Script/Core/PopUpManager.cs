@@ -99,7 +99,7 @@ public class PopUpManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         //OpenChat($"{UserData.Story.ToLower()}-1");
-        OpenChat($"story1-1");
+        OpenChat($"story1-3");
 
         startObj.SetActive(false);
     }
@@ -160,6 +160,7 @@ public class PopUpManager : MonoBehaviour
     {
         path = GetSpPath(path);
         IDPath.Add(path);
+        print(UserData.Story);
         ChatData newData = ReadChatData($"Feed/{UserData.Story}/{path}");
         print(path);
         print(newData.ID);
@@ -220,6 +221,7 @@ public class PopUpManager : MonoBehaviour
     public void ShowAllChat( )
     {
         timeToClickChat = Time.time;
+        print(UserData.Story);
         ChatData data = ReadChatData($"Feed/{UserData.Story}/{NextFileName}");
         allChat.SetActive(true);
 

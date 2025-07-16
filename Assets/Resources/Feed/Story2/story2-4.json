@@ -1,0 +1,111 @@
+{
+  "ID": "chat-02",
+  "ChatName": "ไม่สมัคร",
+  "Icon": [
+    "Image/Story2/fon"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "งั้นไม่เอาดีกว่า {type}อยากได้เวลาคิดซะหน่อย",
+      "PostImage": "",
+      "showTime": "11:16"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ถ้าไม่ทันก็ไม่เป็นไร",
+      "PostImage": "",
+      "showTime": "11:16"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "คุณ{type}มีความกังวลตรงไหนไหมคะ",
+      "PostImage": "",
+      "showTime": "11:16"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ที่ต้องใช้เวลาตัดสินใจ",
+      "PostImage": "",
+      "showTime": "11:17"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "การลงทุนเทรดหุ้นของเราง่ายมากค่ะ แถมเริ่มต้น 5,000 บาทเองค่ะ",
+      "PostImage": "",
+      "showTime": "11:17"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ถ้าคุณ{type} มีความกังวลเรื่องเงินและความรู้ด้านการลงทุน ฝนอยากเรียนแจ้งว่าไม่ต้องกังวลเลยค่ะ",
+      "PostImage": "",
+      "showTime": "11:18"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "คุณณัฐเป็นคนดูแล ฝนรับประกันว่าไม่มีขาดทุนเลยค่ะ",
+      "PostImage": "",
+      "showTime": "11:18"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "หากขาดทุนส่วนใดคุณณัฐจะรับผิดชอบค่าใช้จ่ายให้ อย่างน้อยคุณ{type}จะได้เงินจำนวนที่ลงทุนคืนค่ะ",
+      "PostImage": "",
+      "showTime": "11:19"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "สนใจสมัครไหมคะ",
+      "PostImage": "",
+      "showTime": "11:19"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "สมัคร",
+          "LinkType": "chat",
+          "FileName": "story2-5"
+        },
+        {
+          "Path": "ไม่สมัคร",
+          "LinkType": "chat",
+          "FileName": "story2-6"
+        }
+      ],
+      "PostImage": "",
+      "showTime": ""
+    }
+  ]
+}

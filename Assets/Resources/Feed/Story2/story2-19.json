@@ -1,0 +1,73 @@
+{
+  "ID": "chat-06",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND",
+     "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "นี่เห็นข่าวไหม",
+      "PostImage": "",
+      "showTime": "14:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เพจของคุณณัฐเทรดหุ้นเป็นมิจฉาชีพวไหม",
+      "PostImage": "",
+      "showTime": "14:00"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่คนเดียวกับที่อุ่มเคยบอกไหม",
+      "PostImage": "",
+      "showTime": "14:00"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ ฉันโดนโกงแล้ว เงินก็ถอนออกมาไม่ได้ สัปดาห์นี้ก็ไม่มีเงินกำไรโอนเข้ามาด้วย",
+      "PostImage": "",
+      "showTime": "14:01"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "พวกที่อยู่ในกลุ่มบางส่วนที่ได้กำไรเยอะ ๆ ก็เป็นพวกหน้าม้า",
+      "PostImage": "",
+      "showTime": "14:02"
+    },
+    {
+      "OnwerName": "หาญ",
+      "Icon": "Image/Story2/han",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "พวกนี้น่ากลัวจริง ๆ เห็นข่าวบอกว่าเป็นแชร์ลูกโซ่ เอาเงินของคนมีสมัครใหม่มาวนจ่ายเรื่อย ๆ",
+      "PostImage": "",
+      "showTime": "14:02"
+    },
+    {
+      "OnwerName": "อุ่ม",
+      "Icon": "Image/Story2/aom",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เขาจะรวมกลุ่มกันไปแจ้งความ ฉันจะไปเหมือนกัน อย่างน้อยได้เงินที่ลงทุนไปคืนก็ยังดี",
+      "PostImage": "",
+      "showTime": "14:03"
+    }
+  ]
+}

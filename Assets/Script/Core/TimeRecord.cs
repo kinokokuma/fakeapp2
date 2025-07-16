@@ -66,7 +66,6 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
         if (!File.Exists(getPath()))
         {
-            print("xxxx");
             StreamWriter outStream = System.IO.File.CreateText(getPath());
             outStream.Write(sb);
             outStream.Close();

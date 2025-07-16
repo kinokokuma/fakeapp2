@@ -1,0 +1,101 @@
+{
+  "ID": "chat-03",
+  "ChatName": "สมัคร",
+  "Icon": [
+    "Image/Story2/fon"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "สมัครเลยก็ได้ค่ะ",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขอบคุณมาก ๆ นะคะ",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวฝนขออนุญาตดูแลในเรื่องของการดำเนินการสมัครให้นะคะ",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ลำดับแรกรบกวนส่งข้อมูลยืนยันตัวตนนิดนึงนะคะ",
+      "PostImage": "",
+      "showTime": "11:20"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ข้อมูลที่ต้องกรอกมีดังนี้:  - ชื่อ-นามสกุล  - เบอร์โทร  - ชื่อธนาคารที่ใช้ (เพื่อจัดเตรียมระบบถอนเงินอัตโนมัติ)",
+      "PostImage": "",
+      "showTime": "11:21"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขั้นตอนนี้ไม่มีค่าใช้จ่ายนะคะ เป็นการลงทะเบียนเพื่อเตรียมเข้ากลุ่มเรียน",
+      "PostImage": "",
+      "showTime": "11:22"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ชื่อจินต์ สรรพกุลธร เบอร์โทร : 084-562-7856 บัญชี 012-542251-3 ธ.กุ้งไทย",
+      "PostImage": "",
+      "showTime": "11:23"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เรียบร้อยค่ะ",
+      "PostImage": "",
+      "showTime": "11:24"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวฝนจะดึงเข้ากลุ่มไลน์ที่รวมกลุ่มผู้ลงทุนให้นะคะ",
+      "PostImage": "",
+      "showTime": "11:24"
+    },
+    {
+      "OnwerName": "คุณฝน (ผู้ช่วยอาจารณ์ณัฐ)",
+      "Icon": "Image/Story2/fon",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "รบกวนคุณ{type}อย่าส่งต่อกลุ่มนี้ให้ใครนะคะ กลุ่มปิดพิเศษ",
+      "PostImage": "",
+      "showTime": "11:24",
+      "LinkType": "chat",
+      "FileName": "story2-5-1"
+    }
+  ]
+}
