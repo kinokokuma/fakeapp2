@@ -364,6 +364,7 @@ MonoBehaviour:
   touch: {fileID: 8300000, guid: c5fc0ef8f9cedfe4093d2321f1f6ff36, type: 3}
   chatPop: {fileID: 8300000, guid: eddbdeb952dd31248ae4bc71170ad15e, type: 3}
   newChat: {fileID: 8300000, guid: b56b77523493c114b9aca54cbf865899, type: 3}
+  ms: {fileID: 8300000, guid: c126160d985e6d84b8098c8c70966030, type: 3}
   source: {fileID: 860296184}
 --- !u!114 &860296186
 MonoBehaviour:
@@ -394,6 +395,11 @@ MonoBehaviour:
   - {fileID: 6332685563454905501, guid: 8503d8ae803d4c6459865edb221a585a, type: 3}
   - {fileID: 3658599802113059059, guid: 757cae3620c1a1141b3d5d9e8d22f76b, type: 3}
   - {fileID: 3399626222139455884, guid: 76b11dfdcd8c2c14281eac2d709ca771, type: 3}
+  - {fileID: 1246245075163453190, guid: a5670da3f997a9742bb615bb39c88a77, type: 3}
+  - {fileID: 5163716396318932670, guid: 044d6951abdf8b84d909cb94728a75f1, type: 3}
+  - {fileID: 4546690081975208555, guid: d6619af51577a9e4c8adc71a372471f5, type: 3}
+  - {fileID: 7097459067411099586, guid: 46bf8618c31a41c458fb0dfa7946e675, type: 3}
+  - {fileID: 4142933522426131392, guid: 6b183e137dc11cb4ab7fe5aba616190b, type: 3}
 --- !u!1 &1103511426
 GameObject:
   m_ObjectHideFlags: 0

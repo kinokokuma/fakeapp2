@@ -33,7 +33,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " ทั้งมีเจ้าหน้าที่คุณหมอ\nมาชวนลงทุน",
+            "Content": "ทั้งมีเจ้าหน้าที่คุณหมอ\nมาชวนลงทุน",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:46"
@@ -99,7 +99,7 @@
             "Icon": "",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": " งั้นวันนี้{type}ก็เจอมิจฉาชีพสองคนเลยหรอเนี่ย",
+            "Content": "งั้นวันนี้{type}ก็เจอมิจฉาชีพสองคนเลยหรอเนี่ย",
             "PostImage": "",
             "LinkToPageName": "",
 	"showTime":"12:48"

@@ -105,8 +105,8 @@
       "Choice": [
         {
           "Path": "กรอกข้อมูล",
-          "LinkType": "chat",
-          "FileName": "story2-10"
+          "LinkType": "page",
+          "FileName": "page2-5"
         },
         {
           "Path": "ไม่กรอกข้อมูล",

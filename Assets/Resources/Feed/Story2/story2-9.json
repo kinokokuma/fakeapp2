@@ -1,5 +1,5 @@
 {
-  "ID": "chat-04",
+  "ID": "chat-06",
   "ChatName": "กลุ่มเพื่อนวัยเก๋า",
   "Icon": [
     "Image/Story2/FRIEND"
@@ -22,7 +22,7 @@
       "Content": "ไม่ค่อยได้ซื้อของทาง shopee อยู่แล้ว",
       "PostImage": "",
       "showTime": "12:00",
-      "LinkType": "chat",
+      "LinkType": "chat-s",
       "FileName": "story2-11"
     }
   ]

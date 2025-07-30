@@ -11,12 +11,12 @@ public class S2Page1 : BasePopUp
     public void Start()
     {
         startTime = Time.time;
-        //StartCoroutine(StartChoice());
+        StartCoroutine(StartChoice());
     }
     
     IEnumerator StartChoice()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         startTime = Time.time;
         Choice.SetActive(true);
     }

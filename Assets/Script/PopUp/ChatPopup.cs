@@ -199,7 +199,7 @@ public class ChatPopup : BasePopUp
                             inputString = inputString.Replace("<sprite=4>", "๕");
                             inputString = inputString.Replace("<sprite=5>", "๖");
                             inputString = inputString.Replace("<sprite=6>", "๗");
-
+                            inputString = inputString.Replace("<sprite=7>", "๘");
                             for (contextCharecterIndex = 0; contextCharecterIndex < inputString.Length; contextCharecterIndex++)
                             {
                                 if (inputString[contextCharecterIndex] == '๑')
@@ -346,6 +346,27 @@ public class ChatPopup : BasePopUp
                 b.onClick.RemoveAllListeners();
                 b.onClick.AddListener(() => manager.OnclickOgpage(manager.SP1Button, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
             }
+            else if (!haveQuestion && data.DataDetail[chatIndex - 1].LinkType == "chat-s")
+            {
+                ChatData newData;
+                if (manager.IDPath.Contains("google"))
+                {
+                    newData = manager.ReadChatData($"Feed/Story2/story2-10");
+                }
+                else
+                {
+                    newData = manager.ReadChatData($"Feed/Story2/story2-11");
+                }
+                manager.AddNewButt(newData);
+                manager.timeToClickChat = Time.time;
+                allChatButton.interactable = true;
+                allChatGuildlind.SetActive(true);
+                manager.NextChatID = newData.DataDetail[data.DataDetail.Length - 1].ID;
+                if (!muteSound)
+                {
+                    SoundManager.Instance.PlaySound(SoundID.newChat);
+                }
+            }
             else if(data.DataDetail[chatIndex - 1].LinkType != "" || data.DataDetail[chatIndex - 1].LinkType != null)
             {
                 manager.gopageButton.SetActive(true);
@@ -353,8 +374,9 @@ public class ChatPopup : BasePopUp
                 b.onClick.RemoveAllListeners();
                 b.onClick.AddListener(() => manager.OnclickOgpage(manager.gopageButton, (data.DataDetail[data.DataDetail.Length - 1].FileName)));
             }
+            
 
-            if(data.DataDetail[chatIndex - 1].ID == "block")
+            if (data.DataDetail[chatIndex - 1].ID == "block")
             {
                 blockText.SetActive(true);
                 bottomChat.gameObject.SetActive(false);

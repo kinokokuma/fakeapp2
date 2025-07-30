@@ -140,8 +140,8 @@
       "Choice": [
         {
           "Path": "กดโหลดแอป",
-          "LinkType": "chat",
-          "FileName": "choice2-1"
+          "LinkType": "page",
+          "FileName": "page2-3"
         },
         {
           "Path": "ไม่โหลดแอป",

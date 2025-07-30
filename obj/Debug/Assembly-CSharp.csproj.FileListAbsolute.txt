@@ -308,3 +308,7 @@ D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEditorBridge.003.pdb
 D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.Editor.pdb
 D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.InternalAPIEngineBridge.003.pdb
 D:\work\freelance\fakeApp\Temp\Bin\Debug\Unity.VectorGraphics.pdb
+D:\work\freelance\fakeapp2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\work\freelance\fakeapp2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\work\freelance\fakeapp2\obj\Debug\Assembly-CSharp.dll
+D:\work\freelance\fakeapp2\obj\Debug\Assembly-CSharp.pdb

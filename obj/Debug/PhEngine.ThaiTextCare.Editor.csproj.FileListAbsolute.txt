@@ -1,0 +1,2 @@
+D:\work\freelance\fakeapp2\obj\Debug\PhEngine.ThaiTextCare.Editor.csproj.AssemblyReference.cache
+D:\work\freelance\fakeapp2\obj\Debug\PhEngine.ThaiTextCare.Editor.csproj.CoreCompileInputs.cache

@@ -6,6 +6,7 @@ public enum SoundID
     touch,
     chatPop,
     newChat,
+    ms
 }
 
 public class SoundManager : MonoSingleton<SoundManager>
@@ -14,6 +15,7 @@ public class SoundManager : MonoSingleton<SoundManager>
     public AudioClip touch;
     public AudioClip chatPop;
     public AudioClip newChat;
+    public AudioClip ms;
     public AudioSource source;
     public Dictionary<SoundID, AudioClip> soundDic = new Dictionary<SoundID, AudioClip>();
 
@@ -22,6 +24,7 @@ public class SoundManager : MonoSingleton<SoundManager>
         soundDic[SoundID.touch] = touch;
         soundDic[SoundID.chatPop] = chatPop;
         soundDic[SoundID.newChat] = newChat;
+        soundDic[SoundID.ms] = ms;
     }
     public void Update()
     {

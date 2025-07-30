@@ -264,6 +264,17 @@ public class ChatNormal : ChatObjectBase
         {
 
         }
+        else if (data.LinkType == "chat-s")
+        {
+            if (manager.IDPath.Contains("google"))
+            {
+                manager.OpenChat("story2-10");
+            }
+            else
+            {
+                manager.OpenChat("story2-11");
+            }
+        }
         else
         {
             manager.CreatePopup(data.FileName);
