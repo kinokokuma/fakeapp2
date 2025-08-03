@@ -101,8 +101,8 @@
       "Icon": "Image/Story2/han",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "คราวหลังต้องระวัง",
+      "Content": "คราวหลังต้องระวัง",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -110,8 +110,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "แหม พูดเยอะเชียวนะ",
+      "Content": "แหม พูดเยอะเชียวนะ",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -119,8 +119,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "Content": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -128,8 +128,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "ลองใช้ส่วนลดดูรึยัง ฉันว่าใช้ไม่ได้แน่",
+      "Content": "ลองใช้ส่วนลดดูรึยัง ฉันว่าใช้ไม่ได้แน่",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -137,8 +137,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "Content": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -146,8 +146,8 @@
       "Icon": "",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "ดีนะที่มาถามก่อนไม่งั้นแย่แน่",
+      "Content": "ดีนะที่มาถามก่อนไม่งั้นแย่แน่",
+      "PostImage": "",
       "showTime": "13:15"
     },
     {

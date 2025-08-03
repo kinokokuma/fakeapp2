@@ -212,7 +212,7 @@
             "Icon": "Image/Story1/pong",
             "ChatType": "Normal",
             "DelayTime": 1,
-            "Content": "ถ้าจะสั่งแอดไลน์ @herbmed พิมพ์แบบนี้ เขามีเจ้าหน้าที่ตอบตลอด",
+            "Content": "ถ้าจะสั่งแอดไลน์ \n@herbmed พิมพ์แบบนี้ เขามีเจ้าหน้าที่ตอบตลอด",
             "PostImage": "",
             "LinkToPageName": "",
             "LinkType": "chat",

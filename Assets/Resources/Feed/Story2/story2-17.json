@@ -110,8 +110,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "แหม พูดเยอะเชียวนะ",
+      "Content": "แหม พูดเยอะเชียวนะ",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -119,8 +119,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "Content": "ทีตัวเองกรอกเลขบัตรประชาชนที่ได้ส่วนลดก็ไม่ได้ระวังตัวอะไรเลย",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -137,8 +137,8 @@
       "Icon": "Image/Story2/aom",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "Content": "โดนหลอกเอาข้อมูลเหมือนกัน",
+      "PostImage": "",
       "showTime": "13:15"
     },
     {
