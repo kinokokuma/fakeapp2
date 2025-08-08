@@ -33,11 +33,11 @@ public class S2Page5 : BasePopUp
         manager.IDPath.Add("web1");
         if (manager.IDPath.Contains("google"))
         {
-            manager.OpenChat("story2-10");
+            manager.OpenChat("story2-9-1");
         }
         else
         {
-            manager.OpenChat("story2-11");
+            manager.OpenChat("story2-9-2");
         }
         
         TimeRecord.Instance.SaveRecord(ID, "¡ÅÑºáª·", startTime);

@@ -6,8 +6,8 @@
   ],
   "DataDetail": [
     {
-      "OnwerName": "สำนักงานกรมที่ดิน",
-      "Icon": "Image/Story2/din",
+      "OnwerName": "my",
+      "Icon": "",
       "ChatType": "Normal",
       "DelayTime": 1,
       "Content": "สวัสดีค่ะ มีเจ้าหน้าที่โทรมาบอกให้อัพเดตข้อมูลค่ะ",

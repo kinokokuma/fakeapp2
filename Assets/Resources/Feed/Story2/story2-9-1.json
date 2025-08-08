@@ -1,0 +1,22 @@
+{
+   "ID": "chat-06",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า",
+  "Icon": [
+    "Image/Story2/FRIEND",
+     "Image/Story2/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 0,
+      "Content": "",
+      "PostImage": "",
+      "showTime": "",
+      "LinkType": "chat",
+      "FileName": "story2-10"
+      
+    }
+  ]
+}

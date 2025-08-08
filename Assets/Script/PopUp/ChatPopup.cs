@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.IO;
 using TMPro;
 using System.Text.RegularExpressions;
+using UnityEngine.PlayerLoop;
 
 public class ChatPopup : BasePopUp
 {
@@ -84,7 +85,11 @@ public class ChatPopup : BasePopUp
     }
 
 
-
+    void FixedUpdate()
+    {
+        LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+    }
     public IEnumerator ShowChat(ChatData data,bool muteSound)
     {
         oldIndex = 0;
@@ -236,28 +241,27 @@ public class ChatPopup : BasePopUp
                                 }
                                 yield return new WaitForSeconds(0.1f);
                             }
-                            
 
-                            ChatObjectBase chat = Instantiate(chatobject);
-                            chat.gameObject.SetActive(true);
-                            chat.isSingle = data.Icon.Length >= 2 ? false : true;
-                            chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
-                            chatObject.Add(chat);
-                            chat.gameObject.transform.SetParent(chatParent);
-                            oldIndex = chatIndex;
-                            userInputText.text = string.Empty;
-                            yield return new WaitForSeconds(0.01f);
-                            userInputText.rectTransform.sizeDelta = new Vector2(userInputText.rectTransform.sizeDelta.x, 90);
-                            textbox.rectTransform.sizeDelta = new Vector2(textbox.rectTransform.sizeDelta.x, 90);
-                            bottombar.rectTransform.sizeDelta = new Vector2(bottombar.rectTransform.sizeDelta.x, 120);
-                            userInputText.text = string.Empty;
-                            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
-                            LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
-                            yield return new WaitForEndOfFrame();
-                            LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
-                            LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
-                            yield return new WaitForEndOfFrame();
-                            //Reload();
+                                ChatObjectBase chat = Instantiate(chatobject);
+                                chat.gameObject.SetActive(true);
+                                chat.isSingle = data.Icon.Length >= 2 ? false : true;
+                                chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
+                                chatObject.Add(chat);
+                                chat.gameObject.transform.SetParent(chatParent);
+                                oldIndex = chatIndex;
+                                userInputText.text = string.Empty;
+                                yield return new WaitForSeconds(0.005f);
+                                userInputText.rectTransform.sizeDelta = new Vector2(userInputText.rectTransform.sizeDelta.x, 90);
+                                textbox.rectTransform.sizeDelta = new Vector2(textbox.rectTransform.sizeDelta.x, 90);
+                                bottombar.rectTransform.sizeDelta = new Vector2(bottombar.rectTransform.sizeDelta.x, 120);
+                                userInputText.text = string.Empty;
+                                /*LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+                                LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+                                yield return new WaitForEndOfFrame();
+                                LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+                                LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+                                yield return new WaitForEndOfFrame();*/
+                                //Reload();
                         }
                     }
                     else
@@ -267,14 +271,16 @@ public class ChatPopup : BasePopUp
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
                         }
-                        
-                        ChatObjectBase chat = Instantiate(chatobject, chatParent);
-                        chat.gameObject.SetActive(true);
-                        chat.isSingle = data.Icon.Length >= 2 ? false : true;
-                        chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
-                        chatObject.Add(chat);
-                        oldIndex = chatIndex;
-                        oldIndex = chatIndex;
+                        if (data.DataDetail[chatIndex].DelayTime != 0)
+                        {
+                            ChatObjectBase chat = Instantiate(chatobject, chatParent);
+                            chat.gameObject.SetActive(true);
+                            chat.isSingle = data.Icon.Length >= 2 ? false : true;
+                            chat.Initialized(data.DataDetail[chatIndex], this, manager, muteSound);
+                            chatObject.Add(chat);
+                            oldIndex = chatIndex;
+                            oldIndex = chatIndex;
+                        }
                         //Reload();
                     }
 
@@ -300,7 +306,8 @@ public class ChatPopup : BasePopUp
             yield return new WaitForEndOfFrame();
             LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
 
-            yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?3: data.DataDetail[chatIndex].DelayTime);
+            //yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 1?3: data.DataDetail[chatIndex].DelayTime);
+            yield return new WaitForSeconds(data.DataDetail[chatIndex].DelayTime == 0 ? 0 : 5);
             chatIndex++;
 
         }

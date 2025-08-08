@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public enum QuestionPhase
 {
@@ -63,6 +64,7 @@ public class PopUpManager : MonoBehaviour
     public GameObject SP1Button, SP2Button;
     public string OldChatname;
     public List<string> IDPath;
+    public List<GoToChatButton> mockupChat;
     public void SetPhase(QuestionPhase phase)
     {
         this.phase = phase;
@@ -76,7 +78,13 @@ public class PopUpManager : MonoBehaviour
         popUpDic = new Dictionary<string, BasePopUp>();
         data = new FeedData();
         data = JsonUtility.FromJson<FeedData>(ReadFile("Feed/Class1").ToString());
-
+        foreach (var button in mockupChat)
+        {
+            if(button.ID == UserData.Story)
+            {
+                button.gameObject.SetActive(true);
+            }
+        }
         timeToClickChat = Time.time;
         StartCoroutine(StartChatStory());
     }
@@ -98,8 +106,8 @@ public class PopUpManager : MonoBehaviour
          }*/
         yield return new WaitForEndOfFrame();
 
-        OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story2-8");
+        //OpenChat($"{UserData.Story.ToLower()}-1");
+        OpenChat($"story2-8");
 
         startObj.SetActive(false);
     }
@@ -212,6 +220,7 @@ public class PopUpManager : MonoBehaviour
         if (!have)
         {
             GoToChatButton butt = Instantiate(chatButton, goToChatParent);
+            butt.transform.SetSiblingIndex(0);
             print(butt);
             butt.gameObject.SetActive(true);
             butt.Initialized(newData, this);
@@ -229,6 +238,7 @@ public class PopUpManager : MonoBehaviour
         {
             if(button.ID == data.ID)
             {
+                button.transform.SetSiblingIndex(0);
                 StartCoroutine(ShowAllChatGuide(button));
 
             }

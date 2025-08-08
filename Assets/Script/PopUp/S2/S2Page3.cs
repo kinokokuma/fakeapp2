@@ -11,7 +11,7 @@ public class S2Page3 : BasePopUp
     public TMP_Text[] text2, text3;
     private string[] string2 = { "®‘πµÏ", " √√æ°ÿ≈∏√", "456125", "1730125690555", "5 ‰√Ë 2 ß“π", "µ”∫≈ÀÈ«¬¢«“ß Õ”‡¿Õ°”·æß· π ®—ßÀ«—¥π§√ª∞¡" };
     public GameObject animator;
-    public GameObject home1,home2;
+    public GameObject home1,home2,back;
    public void Start()
     {
         startTime = Time.time;
@@ -67,6 +67,8 @@ public class S2Page3 : BasePopUp
             }
             yield return new WaitForSeconds(0.2f);
         }
+        yield return new WaitForSeconds(2);
+        home1.SetActive(true);
     }
     IEnumerator Write2()
     {
@@ -86,16 +88,17 @@ public class S2Page3 : BasePopUp
     IEnumerator Popup()
     {
         
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(2.5f);
         animator.SetActive(true);
+        SoundManager.Instance.PlaySound(SoundID.ms);
+        yield return new WaitForSeconds(3.7f);
+        SoundManager.Instance.PlaySound(SoundID.ms);
+        yield return new WaitForSeconds(3.5f);
+        SoundManager.Instance.PlaySound(SoundID.ms);
+        yield return new WaitForSeconds(2.6f);
+        SoundManager.Instance.PlaySound(SoundID.ms);
+        yield return new WaitForSeconds(2);
         home2.SetActive(true);
-        SoundManager.Instance.PlaySound(SoundID.ms);
-        yield return new WaitForSeconds(2.5f);
-        SoundManager.Instance.PlaySound(SoundID.ms);
-        yield return new WaitForSeconds(2.5f);
-        SoundManager.Instance.PlaySound(SoundID.ms);
-        yield return new WaitForSeconds(1.8f);
-        SoundManager.Instance.PlaySound(SoundID.ms);
 
 
     }

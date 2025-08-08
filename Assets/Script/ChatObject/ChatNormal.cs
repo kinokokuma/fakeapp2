@@ -244,10 +244,12 @@ public class ChatNormal : ChatObjectBase
         if (postImage.IsActive())
         {
             readRight.rectTransform.sizeDelta = new Vector2(readRight.rectTransform.sizeDelta.x, postImage.rectTransform.sizeDelta.y + 20);
+            readLeft.rectTransform.sizeDelta = new Vector2(readRight.rectTransform.sizeDelta.x, postImage.rectTransform.sizeDelta.y + 20);
         }
         else
         {
             readRight.rectTransform.sizeDelta = new Vector2(readRight.rectTransform.sizeDelta.x, content.rectTransform.sizeDelta.y + 20);
+            readLeft.rectTransform.sizeDelta = new Vector2(readRight.rectTransform.sizeDelta.x, content.rectTransform.sizeDelta.y + 20);
         } 
         if (gameObject.transform.localScale != Vector3.one)
         gameObject.transform.localScale = Vector3.one;
