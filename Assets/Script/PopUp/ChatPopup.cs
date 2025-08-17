@@ -87,8 +87,8 @@ public class ChatPopup : BasePopUp
 
     void FixedUpdate()
     {
-        LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
-        LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
+      /*  LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);*/
     }
     public IEnumerator ShowChat(ChatData data,bool muteSound)
     {
@@ -239,6 +239,8 @@ public class ChatPopup : BasePopUp
                                 {
                                     userInputText.text += inputString[contextCharecterIndex];
                                 }
+                                LayoutRebuilder.ForceRebuildLayoutImmediate(chatParent);
+                                LayoutRebuilder.ForceRebuildLayoutImmediate(textbox.rectTransform);
                                 yield return new WaitForSeconds(0.1f);
                             }
 
@@ -312,7 +314,7 @@ public class ChatPopup : BasePopUp
 
         }
 
-        yield return new WaitForSeconds(5);
+        //yield return new WaitForSeconds(5);
 
         if (!haveQuestion && data.DataDetail[chatIndex-1].ChatType == "Normal")
         {

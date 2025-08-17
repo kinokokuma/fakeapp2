@@ -1,6 +1,6 @@
 {
   "ID": "chat-03",
-  "ChatName": "รุ่นสุดท้าย - ลงทุนวัยเกษียณอย่างปลอดภัย(43)",
+  "ChatName": "รุ่นสุดท้าย-ลงทุน....(43)",
   "Icon": [
     "Image/Story2/wirun"
   ],
@@ -83,12 +83,12 @@
         {
           "Path": "10,000 บาท",
           "LinkType": "chat",
-          "FileName": "story2-5-2"
+          "FileName": "story2-5-3"
         },
         {
           "Path": "15,000 บาท",
           "LinkType": "chat",
-          "FileName": "story2-5-2"
+          "FileName": "story2-5-4"
         }
       ],
       "PostImage": "",
