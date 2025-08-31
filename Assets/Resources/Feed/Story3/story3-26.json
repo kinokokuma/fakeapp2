@@ -1,0 +1,138 @@
+{
+  "ID": "chat-01",
+  "ChatName": "กลุ่มเพื่อยวัยเก๋า",
+  "Icon": [
+    "Image/Story3/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เพ็ญพัสดุส่งกับ Flash ใช่ไหม",
+      "PostImage": "",
+      "showTime": "12:54"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่",
+      "PostImage": "",
+      "showTime": "12:54"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มันมี sms ส่งว่าส่งพัสดุไม่สำเร็จ",
+      "PostImage": "",
+      "showTime": "12:54"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "จริงหรอไหนขอฉันดูหน่อย่",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เนี่ยส่งมาว่า  Flash TH212895D5M45N จัดส่งพัสดุไม่สำเร็จ กรุณาติดต่อเพื่อยืนยันให้จัดส่งพัสดุอีกรอบ http://line.me/R7Elqr",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันกดเข้าไปคุยแล้วบอกว่าพัสดุเสียหายจะให้ฉันโหลดแอพ แต่ฉันไม่กล้าโหลด",
+      "PostImage": "",
+      "showTime": "12:55"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เลยจะมาคุยให้แน่ใจก่อน",
+      "PostImage": "",
+      "showTime": "12:56"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เลขพัสดุมันคนละเลขกับที่ฉันส่งให้นี่",
+      "PostImage": "",
+      "showTime": "12:56"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มิจฉาชีพแน่เลย",
+      "PostImage": "",
+      "showTime": "12:56"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ยังไม่ได้กดโหลดแอพใช่ไหม",
+      "PostImage": "",
+      "showTime": "12:56"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่",
+      "PostImage": "",
+      "showTime": "12:57"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ดีแล้ว ห้ามกดเด็ดขาด",
+      "PostImage": "",
+      "showTime": "12:57"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "บล็อคไลน์เลยยิ่งดี",
+      "PostImage": "",
+      "showTime": "12:57"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวนี้เยอะจริง ๆ เลยนะมิจฉาชีพเนี่ย",
+      "PostImage": "",
+      "showTime": "12:58",
+          "LinkType": "page",
+          "FileName": "end3"
+
+    }
+  ]
+}

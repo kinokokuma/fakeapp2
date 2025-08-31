@@ -15,11 +15,11 @@ D:/work/freelance/fakeapp2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62790
+64871
 Successfully changed project path to: D:/work/freelance/fakeapp2
 D:/work/freelance/fakeapp2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000934 seconds.
+Registered in 0.000966 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.587 seconds
+- Completed reload, in  0.615 seconds
 Domain Reload Profiling:
-	ReloadAssembly (587ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (167ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (16ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (15ms)
 				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002497 seconds.
+Registered in 0.002714 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.087 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (313ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (190ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.2 MB.
+Unloading 1711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
 System memory in use after: 80.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2141.
-Total: 2.925300 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.044300 ms MarkObjects: 2.614600 ms  DeleteObjects: 0.069800 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2143.
+Total: 2.996200 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.693900 ms  DeleteObjects: 0.073100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,33 +131,769 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Feed/Story2/story2-5-1.json
-  artifactKey: Guid(950c45de01a31f6459f4f385d5d0ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story2/story2-5-1.json using Guid(950c45de01a31f6459f4f385d5d0ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50df2db3787efebb576daeecaacf3731') in 0.045504 seconds 
-  Import took 0.047993 seconds .
+  path: Assets/PopUp/Story1/end1.prefab
+  artifactKey: Guid(757cae3620c1a1141b3d5d9e8d22f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story1/end1.prefab using Guid(757cae3620c1a1141b3d5d9e8d22f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa00a7489e8229a60aa6b78d63f0e09e') in 0.142075 seconds 
+  Import took 0.144793 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.840750 seconds.
-  path: Assets/Resources/Feed/Story2/story2-5-2.json
-  artifactKey: Guid(c1cff54c74be2374d8b66be1fc944c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story2/story2-5-2.json using Guid(c1cff54c74be2374d8b66be1fc944c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9afa72fad90b73cd42c19c74f99621') in 0.002175 seconds 
-  Import took 0.004970 seconds .
+  Time since last request: 4.568057 seconds.
+  path: Assets/PopUp/Story2/end2.prefab
+  artifactKey: Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story2/end2.prefab using Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98db7b81eea90ddc71a158bbb690c9fd') in 0.022290 seconds 
+  Import took 0.025176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.783557 seconds.
-  path: Assets/Resources/Feed/Story2/story2-5-4.json
-  artifactKey: Guid(3018cfa9774856d44b8d3002111b68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story2/story2-5-4.json using Guid(3018cfa9774856d44b8d3002111b68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913916839c379a5136639058535efc55') in 0.001520 seconds 
-  Import took 0.004149 seconds .
+  Time since last request: 1.980260 seconds.
+  path: Assets/PopUp/Story2/end2.prefab
+  artifactKey: Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story2/end2.prefab using Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec6d8e65370e51641a73fd98d309591') in 0.023943 seconds 
+  Import took 0.026734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 262.439569 seconds.
-  path: Assets/Resources/Feed/Story2/story2-5-1.json
-  artifactKey: Guid(950c45de01a31f6459f4f385d5d0ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Feed/Story2/story2-5-1.json using Guid(950c45de01a31f6459f4f385d5d0ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a443f768720fb29bb8ed99255326162f') in 0.002192 seconds 
-  Import took 0.005628 seconds .
+  Time since last request: 1.190238 seconds.
+  path: Assets/PopUp/Story2/end2.prefab
+  artifactKey: Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story2/end2.prefab using Guid(76b11dfdcd8c2c14281eac2d709ca771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673b9d6c28d25ea711801d82fd677af0') in 0.026605 seconds 
+  Import took 0.029444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.469832 seconds.
+  path: Assets/Script/PopUp/End3.cs
+  artifactKey: Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PopUp/End3.cs using Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a35b0a824e1ef398e3e68420babe683') in 0.061295 seconds 
+  Import took 0.064684 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (877ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 3.474900 ms (FindLiveObjects: 0.173400 ms CreateObjectMapping: 0.042300 ms MarkObjects: 3.224100 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177.752640 seconds.
+  path: Assets/Script/PopUp/End3.cs
+  artifactKey: Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PopUp/End3.cs using Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7176f92cc4dcca646c04ec9cf24112') in 0.005518 seconds 
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.828046 seconds.
+  path: Assets/Script/PopUp/End3.cs
+  artifactKey: Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PopUp/End3.cs using Guid(fd53fc33442c5234f9247d3d9be8c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fd85bbca13ea7b79201446bf6aa84b') in 0.001888 seconds 
+  Import took 0.005007 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2149.
+Total: 3.037700 ms (FindLiveObjects: 0.180900 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.788500 ms  DeleteObjects: 0.024400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2152.
+Total: 3.776400 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.043000 ms MarkObjects: 3.501300 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (995ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (831ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 3.252000 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.044400 ms MarkObjects: 2.961200 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 3.024800 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.756800 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2161.
+Total: 3.095300 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.847000 ms  DeleteObjects: 0.027200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 491.315028 seconds.
+  path: Assets/Resources/Feed/Story3/story3-20.json
+  artifactKey: Guid(bdae5617357141f428b902a553196a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-20.json using Guid(bdae5617357141f428b902a553196a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e1d370e63031d9a8dae7c12161561d') in 0.027180 seconds 
+  Import took 0.049687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.826308 seconds.
+  path: Assets/Resources/Feed/Story3/story3-20.json
+  artifactKey: Guid(bdae5617357141f428b902a553196a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-20.json using Guid(bdae5617357141f428b902a553196a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81be7b766beee23c4112716561c2c9e1') in 0.001933 seconds 
+  Import took 0.004874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.230474 seconds.
+  path: Assets/Resources/Feed/Story3/story3-24.json
+  artifactKey: Guid(8e852ade5180c5346bbfd8d5e74828b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-24.json using Guid(8e852ade5180c5346bbfd8d5e74828b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0520cdecb74aada083bd2ac06e47ecdf') in 0.001548 seconds 
+  Import took 0.004219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.208140 seconds.
+  path: Assets/Resources/Feed/Story3/story3-11.json
+  artifactKey: Guid(b74b0690eff266044a53bd5ca5b94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-11.json using Guid(b74b0690eff266044a53bd5ca5b94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f683705142a515c5d4c21466c4dc1') in 0.006547 seconds 
+  Import took 0.009150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.914952 seconds.
+  path: Assets/Resources/Feed/Story3/story3-11.json
+  artifactKey: Guid(b74b0690eff266044a53bd5ca5b94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-11.json using Guid(b74b0690eff266044a53bd5ca5b94568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba131a2bf48029c07cf5f3bd15267e1b') in 0.001701 seconds 
+  Import took 0.005150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.281777 seconds.
+  path: Assets/Resources/Feed/Story3/story3-26.json
+  artifactKey: Guid(1f9f48e2dffa21e4485c8d6cd76e0149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Feed/Story3/story3-26.json using Guid(1f9f48e2dffa21e4485c8d6cd76e0149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226c0a526ea068b38c35b7b66687f39a') in 0.029191 seconds 
+  Import took 0.031875 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002451 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2164.
+Total: 3.005000 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.740100 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PhEngine.ThaiTextCare.ThaiTextCareSettings:PrepareInstance () (at Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs:58)
+PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore:.cctor () (at Assets/ThaiTextCare-for-Unity-main/Editor/ThaiTextNurse/ThaiTextCareEditorCore.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/ThaiTextCare-for-Unity-main/Runtime/ThaiTextCareSettings.cs line 58]
+
+UnityEngine.UnityException: Creating asset at path Assets/Plugins/ThaiTextCare/Resources/ThaiTextCareSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PhEngine.ThaiTextCare.ThaiTextCareSettings.PrepareInstance () [0x000ab] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Runtime\ThaiTextCareSettings.cs:58 
+  at PhEngine.ThaiTextCare.Editor.ThaiTextCareEditorCore..cctor () [0x00000] in D:\work\freelance\fakeapp2\Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs:14 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (868ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1690 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 3.207300 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.962100 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254.159627 seconds.
+  path: Assets/PopUp/Story3/end3.prefab
+  artifactKey: Guid(6c5c2ea8c41c3d4499be34fcf91d2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story3/end3.prefab using Guid(6c5c2ea8c41c3d4499be34fcf91d2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d81a06f358aeaca549b51e98516f6f9') in 0.097603 seconds 
+  Import took 0.100485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.439564 seconds.
+  path: Assets/PopUp/Story3/end3.prefab
+  artifactKey: Guid(6c5c2ea8c41c3d4499be34fcf91d2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PopUp/Story3/end3.prefab using Guid(6c5c2ea8c41c3d4499be34fcf91d2826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b46a344b70bdfe6069a7ab48a30633a') in 0.021950 seconds 
+  Import took 0.024835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 563.445548 seconds.
+  path: Assets/Image/ETC/login.png
+  artifactKey: Guid(7567c65445dd66a46a64930a0db8574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/ETC/login.png using Guid(7567c65445dd66a46a64930a0db8574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80638d7c2f4b18d59b679d257281f77') in 0.121203 seconds 
+  Import took 0.124239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.031145 seconds.
+  path: Assets/Image/S3/thaipoliceonline.png
+  artifactKey: Guid(19f453a8f3febb346a350f0604203fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/S3/thaipoliceonline.png using Guid(19f453a8f3febb346a350f0604203fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd23b0ee76c6082bfc115eab85fd4d1a') in 0.013788 seconds 
+  Import took 0.016379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.234970 seconds.
+  path: Assets/Image/S3/checkon.png
+  artifactKey: Guid(322c91bb74e5e1f418f4a4eba27811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/S3/checkon.png using Guid(322c91bb74e5e1f418f4a4eba27811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1b2954bde6bd2cac26b8cced96134e') in 0.012431 seconds 
+  Import took 0.015088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.082301 seconds.
+  path: Assets/Image/S3/checkon.png
+  artifactKey: Guid(322c91bb74e5e1f418f4a4eba27811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/S3/checkon.png using Guid(322c91bb74e5e1f418f4a4eba27811e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e72a33b7780489a3fb006987109ac') in 0.010521 seconds 
+  Import took 0.013367 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

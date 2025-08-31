@@ -12,6 +12,7 @@ public class bank1Popup : BasePopUp
     void Start()
     {
         startTime = Time.time;
+        OpenBank();
     }
 
     // Update is called once per frame

@@ -1,0 +1,182 @@
+{
+  "ID": "chat-03",
+  "ChatName": "Social Media Management",
+  "Icon": [
+    "Image/Story3/SM"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ส่งรูป",
+      "PostImage": "",
+      "showTime": "12:28"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เสร็จแล้วค่ะต้องการเบิกเงินเลยค่ะ ทั้งเงินสำรองจ่ายแล้วก็คอมมิชชั่น",
+      "PostImage": "",
+      "showTime": "12:28"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ต้องได้ทั้งหมด 525 บาทใช่ไหมคะ",
+      "PostImage": "",
+      "showTime": "12:28"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ค่ะ เดี๋ยวจะทำการเบิกเงินให้ทันทีเลยค่ะ",
+      "PostImage": "",
+      "showTime": "12:28"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "สักครู่นะคะ",
+      "PostImage": "",
+      "showTime": "12:29"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ค่ะ",
+      "PostImage": "",
+      "showTime": "12:29"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขออภัยค่ะ พอดีว่าตอนนี้ระบบของส่วนการทำงานระดับต้นมีปัญหาค่ะ ทำให้เบิกเงินออกมาไม่ได้",
+      "PostImage": "",
+      "showTime": "12:29"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "อ้าว แล้วต้องทำยังไงคะ",
+      "PostImage": "",
+      "showTime": "12:30"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ถ้าลูกค้าอยากได้เงินคืนทันที ขออนุญาตแนะนำให้สมัครเป็นระดับกลางหรือสูงเข้ามาค่ะ แล้วแอดมินจะทำเรื่องเบิกเงินให้โดยที่ไม่ต้องทำงานใด ๆ ค่ะ",
+      "PostImage": "",
+      "showTime": "12:30"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "คือต้องโอนเงินเพิ่มหรอคะ",
+      "PostImage": "",
+      "showTime": "12:30"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ค่ะ ต้องโอนเงินสำรองเข้ามาก่อน",
+      "PostImage": "",
+      "showTime": "12:31"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ระดับกลาง 3,000 บาท หรือ ระดับสูง 5,000 บาท ก็ได้ค่ะ",
+      "PostImage": "",
+      "showTime": "12:31"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "แต่จะได้เงินคืนทันที ทั้งเงินรอบเก่าและเงินสำรองรอบใหม่ที่โอนเข้ามา",
+      "PostImage": "",
+      "showTime": "12:31"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มันแปลก ๆ รึเปล่าคะ ทำไมจู่ ๆ ระบบจะมาขัดข้อง แถมต้องโอนเงินเพิ่มอีก",
+      "PostImage": "",
+      "showTime": "12:32"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มีทางอื่นไหมคะ",
+      "PostImage": "",
+      "showTime": "12:32"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ต้องขอโทษจริง ๆ ค่ะ ทางเราก็ไม่อยากให้มีเหตุการณ์แบบนี้เกิดขึ้น",
+      "PostImage": "",
+      "showTime": "12:32"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ถ้าไม่สะดวกสมัครในระดับอื่นสามารถรอประมาณ 7 วันก็จะได้รับเงินคืนเช่นกันนะคะ",
+      "PostImage": "",
+      "showTime": "12:32"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "โอนเงิน3000เพื่อสมัครในระดับกลาง",
+          "LinkType": "chat",
+          "FileName": "story3-21"
+        },
+        {
+          "Path": "รอ",
+          "LinkType": "chat",
+          "FileName": "story3-22"
+        }
+      ],
+      "PostImage": ""
+    }
+  ]
+}

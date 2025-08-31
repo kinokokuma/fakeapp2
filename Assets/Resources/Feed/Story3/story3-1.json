@@ -1,0 +1,227 @@
+{
+  "ID": "chat-01",
+  "ChatName": "กลุ่มเพื่อนวัยเก๋า (3)",
+  "Icon": [
+    "Image/Story3/FRIEND"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ตื่นกันหรือยัง",
+      "PostImage": "",
+      "showTime": "06:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มีใครจะไปตลาดกับฉันไหม",
+      "PostImage": "",
+      "showTime": "06:00"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันจะไปซื้อข้าวเช้า",
+      "PostImage": "",
+      "showTime": "06:01"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story3/HI",
+      "showTime": "06:01"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันไปด้วย",
+      "PostImage": "",
+      "showTime": "06:02"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ตื่นตั้งแต่ตีห้าแล้ว",
+      "PostImage": "",
+      "showTime": "06:02"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "กวาดใบไม้เสร็จก็มานั่งกินกาแฟ",
+      "PostImage": "",
+      "showTime": "06:03"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่มีอะไรทำเลยช่วงนี้",
+      "PostImage": "",
+      "showTime": "06:03"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ตั้งแต่เกษียณไม่รู้จะทำอะไร",
+      "PostImage": "",
+      "showTime": "06:04"
+    },
+    {
+      "OnwerName": "แสวง",
+      "Icon": "Image/Story3/swang",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "บางก็ได้แต่นั่งเหม่อไปเรื่อย",
+      "PostImage": "",
+      "showTime": "06:04"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ไม่ลองหางานออนไลน์ทำล่ะ",
+      "PostImage": "",
+      "showTime": "06:05"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวนี้เขามีงานพวกตอบแบบสอบถาม หรือไม่ก็รีวิวของ",
+      "PostImage": "",
+      "showTime": "06:05"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันทำงานตอบแบบสอบถามมาสักพักแล้ว",
+      "PostImage": "",
+      "showTime": "06:06"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ง่าย ๆ ไว้ทำตอนว่าง ๆ",
+      "PostImage": "",
+      "showTime": "06:06"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "แต่ไม่ได้เงินเยอะเท่าไรหรอกนะ ไว้ทำฆ่าเวลา",
+      "PostImage": "",
+      "showTime": "06:06"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฟังดูดีนะ เหมาะกับเราที่อยู่บ้านไม่มีอะไรทำ",
+      "PostImage": "",
+      "showTime": "06:06"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "มีเว็บที่ให้เราไปสมัครตอบแบบสอบถามใช่ไหม",
+      "PostImage": "",
+      "showTime": "06:06"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันเคยเห็นผ่าน ๆ ในเฟซบุ๊กแต่ไม่กล้ากด",
+      "PostImage": "",
+      "showTime": "06:07"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ เดี๋ยวฉันส่งลิงก์ให้",
+      "PostImage": "",
+      "showTime": "06:07"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "อันนี้ฉันทำอยู่ ได้เงินจริงแต่จะได้เงินน้อยอย่างที่ฉันว่านั่นแหละ",
+      "PostImage": "",
+      "showTime": "06:08"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "maiwang.in.th",
+      "PostImage": "",
+      "showTime": "06:09"
+    },
+    {
+      "OnwerName": "เพ็ญ",
+      "Icon": "Image/Story3/pen",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ลองสมัครดูถ้ามีติดตรงไหนเดี๋ยวฉันช่วย",
+      "PostImage": "",
+      "showTime": "06:09"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "ลองทำ",
+          "LinkType": "page",
+          "FileName": "page3-1"
+        },
+        {
+          "Path": "ไม่ทำ",
+          "LinkType": "chat",
+          "FileName": "story3-3"
+        }
+      ],
+      "PostImage": ""
+    }
+  ]
+}

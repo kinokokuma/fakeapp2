@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 456774e94d8aeef4a963f0aba7b2099d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d64aeb90d9e63a448a3e8fd0d704778d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1945eecd040919644ad8590baf335b65, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90823357c7091ba46902c0a6a7394939, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 75d709b1c9964d74b87b5a0e2a435e92, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac2dd163e49306b48853198fed98f46e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1467,7 +1467,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: story1-12-1
+          m_StringArgument: story3-6
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 8760231894361171743}
@@ -1549,7 +1549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eef72aa572881af4b81af7a5b60ca170, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90823357c7091ba46902c0a6a7394939, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1592,7 +1592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4189106836253048930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2540c0898aaefaf49ab90a6c2ecb5d4d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82470249c7d36924f96e145db9635203, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35df20752c4c1254c9348fe08c39bcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: bank1-1
+  ID: bank3-1
   startTime: 0
   bank: {fileID: 6800540721334464663}
   home: {fileID: 1723989930622869805}

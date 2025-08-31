@@ -56,7 +56,6 @@ public class UserData : MonoBehaviour
         UserID = inputID.text;
         Solution = dropdownSolution.captionText.text;
         Story = dropdownStory.captionText.text;
-        print(Story);
         type.text = Solution.Split('_')[1];
         if (inputName.text == string.Empty)
         {

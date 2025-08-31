@@ -88,13 +88,16 @@
      <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
      <Compile Include="Assets\Script\PopUp\S1\OldStoryChat.cs" />
      <Compile Include="Assets\Script\PopUp\S2\S2Page2.cs" />
+     <Compile Include="Assets\Script\PopUp\End3.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Group1Popup.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Script\Setup\UserData.cs" />
+     <Compile Include="Assets\Script\PopUp\NormalPage.cs" />
      <Compile Include="Assets\Script\PopUp\S1\Bank2Popup.cs" />
      <Compile Include="Assets\Script\ChatObject\GoToChatButton.cs" />
      <Compile Include="Assets\Script\PopUp\QuestPopUp.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\pop.cs" />
      <Compile Include="Assets\Script\PopUp\S2\S2Page3.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
@@ -131,6 +134,7 @@
      <Compile Include="Assets\Script\Core\ChatData.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Script\PopUp\S3\SeePage.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

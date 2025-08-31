@@ -1,0 +1,29 @@
+{
+  "ID": "chat-03",
+  "ChatName": "Social Media Management",
+  "Icon": [
+    "Image/Story3/SM"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story3/Frame 81",
+      "showTime": "12:36"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "รอสักครู่นะคะเดี๋ยวจะดำเนินการให้",
+      "PostImage": "",
+      "showTime": "12:37",
+      "LinkType": "chat",
+      "FileName": "story3-24"
+    }
+  ]
+}

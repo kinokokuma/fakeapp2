@@ -1,0 +1,155 @@
+{
+  "ID": "chat-03",
+  "ChatName": "Social Media Management",
+  "Icon": [
+    "Image/Story3/SM"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story3/group 309",
+      "showTime": "12:20"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เสร็จแล้วค่ะ",
+      "PostImage": "",
+      "showTime": "12:20"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "รับทราบค่ะ",
+      "PostImage": "",
+      "showTime": "12:20"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ต้องการเบิกเงินเลยค่ะ",
+      "PostImage": "",
+      "showTime": "12:20"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "หากต้องการเบิกเงินตอนนี้จะเบิกได้ 40 บาท ที่เป็นค่าคอมมิชชั่นนะคะ",
+      "PostImage": "",
+      "showTime": "12:21"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "หากต้องการเบิกเงินรบกวนส่งชื่อ-นามสกุล และเลขบัญชีที่ต้องการรับเงินด้วยนะคะ",
+      "PostImage": "",
+      "showTime": "12:21"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "กานต์ สิริวัฒน์ 012-187614-8 ธ.กุ้งไทย",
+      "PostImage": "",
+      "showTime": "12:22"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ส่งสลิป",
+      "PostImage": "",
+      "showTime": "12:22"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "โอนให้เรียบร้อยค่ะ",
+      "PostImage": "",
+      "showTime": "12:22"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "แล้วเงินที่สำรองจ่ายจะได้คืนตอนไหนคะ",
+      "PostImage": "",
+      "showTime": "12:22"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เนื่องจากที่ลองทำไปเมื่อสักครู่เป็นการทำงานครั้งแรก ซึ่งยังไม่ได้ลงทะเบียนยืนยันตัวตนในระบบของเราโดยสมบูรณ์ค่ะ",
+      "PostImage": "",
+      "showTime": "12:23"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เงินสำรองจึงจะได้คืนเมื่อลงทะเบียนกับเราโดยมีค่าลงะทะเบียน 100 บาท และจะได้รับเงินสำรองจ่ายคืนเมื่อทำภารกิจที่สองเสร็จสิ้นค่ะ",
+      "PostImage": "",
+      "showTime": "12:24"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ต้องโอนเพิ่มหรอคะ",
+      "PostImage": "",
+      "showTime": "12:24"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ใช่ค่ะ ค่าลงทะเบียน 100 บาท พร้อมกับเงินสำรองจ่ายของภารกิจถัดไปซึ่งเลือกได้เฉพาะภารกิจระดับต้น/กลาง หรือสูงเท่านั้นค่ะ",
+      "PostImage": "",
+      "showTime": "12:25"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 2,
+      "Content": "",
+      "Choice": [
+        {
+          "Path": "ทำงานต่อ",
+          "LinkType": "chat",
+          "FileName": "story3-15"
+        },
+        {
+          "Path": "ไม่ทำงานต่อ",
+          "LinkType": "chat",
+          "FileName": "story3-16"
+        }
+      ],
+      "PostImage": ""
+    }
+  ]
+}

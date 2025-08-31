@@ -1,0 +1,29 @@
+{
+  "ID": "chat-02",
+  "ChatName": "กลุ่มธรรมะ ทำบุญ(43)",
+  "Icon": [
+    "Image/Story3/tumma"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "ปลื้ม",
+      "Icon": "Image/Story3/plum",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขออนุญาติส่งต่อครับเผอิญเจอใน facebook ร่วมทำบุญบูรณะศาลาการเปรียญกันครับ",
+      "PostImage": "",
+      "showTime": "08:30"
+    },
+    {
+      "OnwerName": "ปลื้ม",
+      "Icon": "Image/Story3/plum",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "https://www.facebook.com/groups/saiboon/posts/102458934872659/",
+      "PostImage": "",
+      "showTime": "08:30",
+          "LinkType": "page",
+          "FileName": "page3-2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "ID": "chat-03",
+  "ChatName": "Social Media Management",
+  "Icon": [
+    "Image/Story3/SM"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "",
+      "PostImage": "Image/Story3/Frame 80",
+      "showTime": "12:26"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เดี๋ยวจะทำการลงทะเบียนให้นะคะ รบกวนขอชื่อ-นามสกุล และเลขบัญชีรับเงินอีกรอบนะคะ",
+      "PostImage": "",
+      "showTime": "12:26"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "กานต์ สิริวัฒน์ 012-187614-8 ธ.กุ้งไทย",
+      "PostImage": "",
+      "showTime": "12:26"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เรียบร้อยค่ะ เดี๋ยวจะเบิกงานให้นะคะ",
+      "PostImage": "",
+      "showTime": "12:27"
+    },
+    {
+      "OnwerName": "Social Media Management",
+      "Icon": "Image/Story3/SM",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "https://www.facebook.com/onlinework เข้าไปกดไลก์ตามลิงก์ที่ให้จำนวน 25 โพสต์ค่ะ ถ้ากดไลก์แล้วให้แคปหน้าจอเพื่อเป็นหลักฐานส่งมาที่ไลน์นี้ค่ะ",
+      "PostImage": "",
+      "showTime": "12:28",
+      "LinkType": "chat",
+      "FileName": "story3-18"
+    }
+  ]
+}

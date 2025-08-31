@@ -1,0 +1,110 @@
+{
+  "ID": "chat-02",
+  "ChatName": "กลุ่มธรรมะ ทำบุญ",
+  "Icon": [
+    "Image/Story3/tumma"
+  ],
+  "DataDetail": [
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "โอนแล้วค่ะ อนุโมทนาบุญค่ะ",
+      "PostImage": "",
+      "showTime": "08:33"
+    },
+    {
+      "OnwerName": "ฟ้า",
+      "Icon": "Image/Story3/fah",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ขอโทษที่ต้องขัดนะคะ",
+      "PostImage": "",
+      "showTime": "08:33"
+    },
+    {
+      "OnwerName": "ฟ้า",
+      "Icon": "Image/Story3/fah",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "พอดีเห็นว่าชื่อบัญชีเป็นชื่อส่วนบุคคล ยังไงรบกวนทุกท่านตรวจเช็คและระมัดระวังเวลาทำบุญออนไลน์ด้วยนะคะ",
+      "PostImage": "",
+      "showTime": "08:33"
+    },
+    {
+      "OnwerName": "ปลื้ม",
+      "Icon": "Image/Story3/plum",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "จริงด้วยครับ",
+      "PostImage": "",
+      "showTime": "08:33"
+    },
+    {
+      "OnwerName": "ปลื้ม",
+      "Icon": "Image/Story3/plum",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "จริงด้วยครับขออภัยด้วยครับทุกท่าน ผมไม่ได้สังเกตเลย",
+      "PostImage": "",
+      "showTime": "08:34"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ฉันโอนไปแล้วซะด้วยสิ",
+      "PostImage": "",
+      "showTime": "08:34"
+    },
+    {
+      "OnwerName": "ปลื้ม",
+      "Icon": "Image/Story3/plum",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ผมขอโทษจริง ๆ ครับ",
+      "PostImage": "",
+      "showTime": "08:35"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "โอ๊ย เดี๋ยวนี้มิจฉาชีพมาทุกรูปแบบเลย แถมเนียนเหลือเกิน",
+      "PostImage": "",
+      "showTime": "08:35"
+    },
+    {
+      "OnwerName": "my",
+      "Icon": "",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "เริ่มจะแยกไม่ออกแล้ว",
+      "PostImage": "",
+      "showTime": "08:35"
+    },
+    {
+      "OnwerName": "ฟ้า",
+      "Icon": "Image/Story3/fah",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "จริงค่ะ เดี๋ยวนี้แยกไม่ออกเลย",
+      "PostImage": "",
+      "showTime": "08:36"
+    },
+    {
+      "OnwerName": "ฟ้า",
+      "Icon": "Image/Story3/fah",
+      "ChatType": "Normal",
+      "DelayTime": 1,
+      "Content": "ถ้าไม่แน่ใจว่าใช่มิจฉาชีพไหม ฟ้าแนะนำให้เอาเลยบัญชีไปเช็คที่เว็บ www.checkgon.go.th ก่อนค่ะ",
+      "PostImage": "",
+      "showTime": "08:36",
+      "LinkType": "page",
+      "FileName": "see1"
+    }
+  ]
+}
