@@ -65,8 +65,8 @@
       "Icon": "Image/Story2/han",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "กรอกอะไรไปบ้าง",
+      "Content": "กรอกอะไรไปบ้าง",
+      "PostImage": "",
       "showTime": "13:12"
     },
     {
@@ -83,8 +83,8 @@
       "Icon": "Image/Story2/han",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "เจ้าหน้าที่รัฐอะไรจะติดต่อมาก่อนแถมข้อมูลที่ให้กรอกก็มีเลขบัตรประชาชนด้วย",
+      "Content": "เจ้าหน้าที่รัฐอะไรจะติดต่อมาก่อนแถมข้อมูลที่ให้กรอกก็มีเลขบัตรประชาชนด้วย",
+      "PostImage": "",
       "showTime": "13:12"
     },
     {
@@ -92,8 +92,8 @@
       "Icon": "Image/Story2/han",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "",
-      "PostImage": "เหมือนมิจฉาชีพเลย ถึงไม่โดนดูดเงินแต่เขาอาจจะใช้ข้อมูลไปทำธุรกรรมหรือเอาไปเปิดบัญชีม้าก็ได้",
+      "Content": "เหมือนมิจฉาชีพเลย ถึงไม่โดนดูดเงินแต่เขาอาจจะใช้ข้อมูลไปทำธุรกรรมหรือเอาไปเปิดบัญชีม้าก็ได้",
+      "PostImage": "",
       "showTime": "13:13"
     },
     {
@@ -158,8 +158,8 @@
       "Content": "คราวหลังต้องระวังมากกว่านี้",
       "PostImage": "",
       "showTime": "13:16",
-      "LinkType": "chat",
-      "FileName": "story2-19"
+      "LinkType": "page",
+      "FileName": "T2-19"
     }
   ]
 }

@@ -12,6 +12,7 @@ public class S2Page5 : BasePopUp
     {
         startTime = Time.time;
         StartCoroutine(Count(home1));
+        manager.IDPath.Add("web1");
     }
 
     public void OpenCount(GameObject obj)

@@ -17,7 +17,7 @@ public class End2 : BasePopUp
         {
             task[1].isOn = true;
         }
-        if (manager.IDPath.Contains("call"))
+        if (manager.IDPath.Contains("app"))
         {
             task[2].isOn = true;
         }

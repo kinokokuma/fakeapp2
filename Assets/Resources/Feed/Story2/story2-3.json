@@ -109,7 +109,7 @@
       "Icon": "Image/Story2/fon",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "ขอโทษที่ฝนต้องเร่งนะคะแต่ตอนนี้ที่ใกล้เต็มแล้วจริง ๆ ค่ะะ",
+      "Content": "ขอโทษที่ฝนต้องเร่งนะคะแต่ตอนนี้ที่ใกล้เต็มแล้วจริง ๆ ค่ะ",
       "PostImage": "",
       "showTime": "11:15"
     },
@@ -118,7 +118,7 @@
       "Icon": "Image/Story2/fon",
       "ChatType": "Normal",
       "DelayTime": 1,
-      "Content": "ฝนกลัวว่าถ้าช้า คุณ{type}อาจะจะสมัครไม่ทันค่ะ",
+      "Content": "ฝนกลัวว่าถ้าช้า คุณ{type}อาจจะสมัครไม่ทันค่ะ",
       "PostImage": "",
       "showTime": "11:15"
     },

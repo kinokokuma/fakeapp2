@@ -68,7 +68,7 @@ public class S2Page3 : BasePopUp
             yield return new WaitForSeconds(0.2f);
         }
         yield return new WaitForSeconds(2);
-        home1.SetActive(true);
+        //home1.SetActive(true);
     }
     IEnumerator Write2()
     {
@@ -101,5 +101,9 @@ public class S2Page3 : BasePopUp
         home2.SetActive(true);
 
 
+    }
+    public void fake()
+    {
+        manager.IDPath.Add("app");
     }
 }

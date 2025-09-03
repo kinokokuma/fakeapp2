@@ -43,3 +43,7 @@ Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
 1755450718762,63.78714,choice-chat-03-story2-5-2,15.14314,เปิดแชททั้งหมด,False
 1755450719758,78.93028,choice-chat-04,0.9960709,เปิดแชทchat-04,False
 1755450737364,87.21925,choice-page2-2,10.08505,กลับแชท,False
+1756838842015,83.72743,choice-chat-05-story2-14,19.78466,กดโหลดแอป,False
+1756899063283,88.58806,choice-chat-05-story2-14,20.26504,กดโหลดแอป,False
+1756899542888,83.06734,choice-chat-05-story2-14,104.9645,กดโหลดแอป,False
+1756899597231,188.0585,choice-page2-3,54.2401,กลับแชท,False
