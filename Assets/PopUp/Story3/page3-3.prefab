@@ -130,8 +130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: -442}
-  m_SizeDelta: {x: 343, y: 138}
+  m_AnchoredPosition: {x: -165, y: -535.1447}
+  m_SizeDelta: {x: 343, y: 283.5386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2768670850099366881
 CanvasRenderer:
@@ -224,7 +224,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: story2-12
+          m_StringArgument: story3-12
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &2768670850300426122
@@ -605,7 +605,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.548218, y: -115.800385}
+  m_AnchoredPosition: {x: 15, y: -46}
   m_SizeDelta: {x: 465.5465, y: 190.3781}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1418973638862796157
