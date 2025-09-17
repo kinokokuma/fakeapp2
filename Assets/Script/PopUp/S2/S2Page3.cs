@@ -28,9 +28,15 @@ public class S2Page3 : BasePopUp
         obj.SetActive(true);
     }
 
-
+    public void BackS()
+    {
+        manager.OpenChat("story2-16");
+        TimeRecord.Instance.SaveRecord(ID, "ไม่สมัคร", startTime);
+        gameObject.SetActive(false);
+    }
     public void Back(bool have)
     {
+        manager.IDPath.Add("webDin");
         if (have)
         {
             manager.OpenChat("story2-17");
