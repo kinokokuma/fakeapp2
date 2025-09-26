@@ -15,3 +15,8 @@ Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
 1755450477060,42.39168,choice-chat-03-story2-5-1,8.618874,10000 บาท,False
 1756839008851,110.2807,choice-chat-05-story2-14,2.242203,กดโหลดแอป,False
 1756839063521,112.5722,choice-page2-3,27.61526,กลับแชท,False
+1758913516039,9.632881,choice-chat-04-story2-7,2.920413,ทำแบบสอบถาม,False
+1758913525249,12.5871,choice-page2-2,9.026764,กลับแชท,False
+1758913594344,78.66655,choice-chat-06-story2-8,12.1936,ไม่กรอกข้อมูล,False
+1758913617136,109.7391,choice-chat-06-story2-9,3.912712,เปิดแชททั้งหมด,False
+1758913620595,113.6518,choice-chat-04,3.459076,เปิดแชทchat-04,False

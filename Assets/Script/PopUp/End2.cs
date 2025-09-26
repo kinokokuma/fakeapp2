@@ -13,11 +13,11 @@ public class End2 : BasePopUp
         {
             task[0].isOn = true;
         }
-        if (manager.IDPath.Contains("webDin"))
+        if (manager.IDPath.Contains("web1"))
         {
             task[1].isOn = true;
         }
-        if (manager.IDPath.Contains("app"))
+        if (manager.IDPath.Contains("webDin"))
         {
             task[2].isOn = true;
         }

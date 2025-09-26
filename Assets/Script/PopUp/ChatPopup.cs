@@ -12,7 +12,7 @@ public class ChatPopup : BasePopUp
     private const int chatSizeOffset = 291; //285+70
     private ChatData data;
     private int chatIndex;
-    private string[] emoji = { "<sprite=0>", "<sprite=1>", "<sprite=2>", "<sprite=3>", "<sprite=4>", "<sprite=5>" };
+    private string[] emoji = { "<sprite=0>", "<sprite=1>", "<sprite=2>", "<sprite=3>", "<sprite=4>", "<sprite=5>","<sprite=6>", "<sprite=7>" };
 
     [SerializeField]
     private Button allChatButton;
@@ -235,7 +235,10 @@ public class ChatPopup : BasePopUp
                                 {
                                     userInputText.text += "<sprite=6>";
                                 }
-                                else
+                                else if(inputString[contextCharecterIndex] == '๘')
+                                {
+                                    userInputText.text += "<sprite=7>";
+                                }
                                 {
                                     userInputText.text += inputString[contextCharecterIndex];
                                 }
@@ -338,6 +341,7 @@ public class ChatPopup : BasePopUp
                 else
                 {
                     print(data.DataDetail[data.DataDetail.Length - 1].FileName);
+
                     manager.OpenChat(data.DataDetail[data.DataDetail.Length - 1].FileName);
                 }
             }
@@ -357,24 +361,26 @@ public class ChatPopup : BasePopUp
             }
             else if (!haveQuestion && data.DataDetail[chatIndex - 1].LinkType == "chat-s")
             {
+                print("xxxxxxxxxxx");
                 ChatData newData;
                 if (manager.IDPath.Contains("google"))
                 {
-                    newData = manager.ReadChatData($"Feed/Story2/story2-10");
+                    manager.OpenChat($"story2-10");
                 }
                 else
                 {
-                    newData = manager.ReadChatData($"Feed/Story2/story2-11");
+                    manager.OpenChat($"story2-11");
                 }
-                manager.AddNewButt(newData);
-                manager.timeToClickChat = Time.time;
-                allChatButton.interactable = true;
-                allChatGuildlind.SetActive(true);
-                manager.NextChatID = newData.DataDetail[data.DataDetail.Length - 1].ID;
-                if (!muteSound)
-                {
-                    SoundManager.Instance.PlaySound(SoundID.newChat);
-                }
+               // manager.OpenChat(newData);
+                /* manager.AddNewButt(newData);
+                 manager.timeToClickChat = Time.time;
+                 allChatButton.interactable = true;
+                 allChatGuildlind.SetActive(true);
+                 manager.NextChatID = newData.DataDetail[data.DataDetail.Length - 1].ID;
+                 if (!muteSound)
+                 {
+                     SoundManager.Instance.PlaySound(SoundID.newChat);
+                 }*/
             }
             else if(data.DataDetail[chatIndex - 1].LinkType != "" || data.DataDetail[chatIndex - 1].LinkType != null)
             {
