@@ -36,6 +36,8 @@ public class PostPopup : BasePopUp
     private Button click;
     [SerializeField]
     private GameObject layout;
+    [SerializeField]
+    private AspectRatioFitter imageRatio;
 
     public Image Icon => icon;
     public Image BG => bg;
@@ -63,9 +65,8 @@ public class PostPopup : BasePopUp
                 description.text = $"{resultText}...";
             }
         }
-        
+
         var texture = Resources.Load<Texture2D>($"Image/Icon/{data.Icon}");
-        if(texture!=null)
         icon.sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), new Vector2(0.5f, 0.5f), 100.0f);
         userName.text = data.Name;
         postData = data;
@@ -73,7 +74,9 @@ public class PostPopup : BasePopUp
         {
             var poseTexture = Resources.Load<Texture2D>($"Image/PostImage/{data.PostImage}");
             postImage.gameObject.SetActive(true);
-            //postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            postImage.sprite = Sprite.Create(poseTexture, new Rect(0.0f, 0.0f, poseTexture.width, poseTexture.height), new Vector2(0.5f, 0.5f), 100.0f);
+            print(poseTexture.width / poseTexture.height);
+            imageRatio.aspectRatio = (float)poseTexture.width/poseTexture.height;
         }
         else
         {
@@ -92,11 +95,16 @@ public class PostPopup : BasePopUp
 
         if (click != null)
         {
-            click.onClick.AddListener(json.click);
+            click.onClick.AddListener(() => 
+            {
+                json.click();
+                TimeRecord.Instance.SaveRecord("readnews");
+            });
         }
 
-       // StartCoroutine(json.UpdateLayoutGroup());
-        //StartCoroutine(UpdateLayoutGroup(layout, 2));
+        StartCoroutine(json.UpdateLayoutGroup());
+        StartCoroutine(UpdateLayoutGroup(layout, 2));
+        print(postData);
     }
 
     public void ShowAllText(GameObject button)
@@ -111,17 +119,13 @@ public class PostPopup : BasePopUp
 
     public void Update()
     {
-
         if (rectTransform != null && postData!=null)
         {
-            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -60 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 40)
+            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -600 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 30)
             {
-                //read
-                //BG.color = Color.red;
                 if (postData != null)
                 {
                     json.SetCurrentData(postData);
-                    print("save");
                 }
 
                 if (click != null)

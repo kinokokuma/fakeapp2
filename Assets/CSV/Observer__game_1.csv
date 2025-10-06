@@ -1,0 +1,6 @@
+Date,TimeFromStart,TaskNumber,PostID,QuestionType,ClickTarget
+1719240026552,444.3465,1,post11,Is_Fake,not_fake
+1719240027112,444.9095,1,post11,Level_Of_Confident,3
+1719240027502,445.2986,1,post11,Level_Of_Confident,go_to_have_seen
+1719240028304,446.1015,1,post11,Have_seen,yes
+1719240588408,1006.206,2,post9,Is_Fake,not_fake

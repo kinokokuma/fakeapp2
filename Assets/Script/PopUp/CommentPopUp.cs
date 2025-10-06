@@ -54,6 +54,7 @@ public class CommentPopUp : BasePopUp
             bg.sizeDelta = new Vector2(bg.sizeDelta.x, commentText.rectTransform.sizeDelta.y + 45);
             StartCoroutine(UpdateLayoutGroup(reload, 2));
             refresh++;
+            
         }
     }
 }

@@ -4,29 +4,14 @@ using UnityEngine;
 
 public class BasePopUp : MonoBehaviour
 {
-    public string ID;
-    public float startTime;
-    protected PopUpManager manager;
-    public void SetManager(PopUpManager manager)
-    {
-        this.manager = manager;
-    }
-
-    public void save(string comment, bool isSignificant =false)
-    {
-        TimeRecord.Instance.SaveRecord(ID, comment, startTime,isSignificant);
-    }
-
     protected IEnumerator UpdateLayoutGroup(GameObject reloadObject, int count = 1)
     {
         for (int i = 0; i < count; i++)
         {
-         //   reloadObject.SetActive(false);
+            reloadObject.SetActive(false);
             yield return new WaitForEndOfFrame();
-
-           // reloadObject.SetActive(true);
+            reloadObject.SetActive(true);
             yield return new WaitForEndOfFrame();
         }
-        yield return new WaitForEndOfFrame();
     }
 }

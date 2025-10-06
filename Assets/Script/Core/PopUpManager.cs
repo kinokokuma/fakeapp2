@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public enum QuestionPhase
 {
+    Start,
     Is_Fake,
     Level_Of_Confident,
     Have_seen,
@@ -16,55 +17,32 @@ public enum QuestionPhase
 public class PopUpManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject allChat;
     [SerializeField]
     private FeedData data;
     [SerializeField]
     private PostPopup popupPrefab;
     [SerializeField]
-    private Transform feedParent;
-    [SerializeField]
-    private Transform popupParent;
-    [SerializeField]
-    private Transform chatParent;
+    private Transform parent;
     [SerializeField]
     private ScrollRect scrollRect;
     [SerializeField]
-    private ChatPopup chatPopup;
+    private ReadPopup readPopup;
     [SerializeField]
     private VerticalLayoutGroup layoutGroup;
     [SerializeField]
     private QuestPopUp question;
+    [SerializeField]
+    private GameObject endPopup;
+    [SerializeField]
+    private TMP_Text endText;
+
     private QuestionPhase phase;
     private PostData currentPostPopupData;
+    private int currentIndex;
 
-    [SerializeField]
-    private Dictionary<string, ChatPopup> chatPopUpDic;
-    [SerializeField]
-    private Dictionary<string, BasePopUp> popUpDic;
-
-    [SerializeField]
-    private Transform goToChatParent;
-    public GoToChatButton chatButton;
-    public List<GoToChatButton> allChatButtonList;
-    [SerializeField]
-   // private List<BasePopUp> allPopUpList;
     public QuestionPhase Phase => phase;
-    public  PostData CurrentPostPopupData => currentPostPopupData;
-    public ChatDataDetail currentChatData;
-    public string NextFileName;
-    public string NextChatID;
-    public string CurrentJsonName;
-    public RectTransform GotoChatGuildLine;
-    [SerializeField]
-    private RectTransform bottomChat;
-    public GameObject startObj;
-    public float timeToClickChat;
-    public GameObject gopageButton;
-    public GameObject SP1Button, SP2Button;
-    public string OldChatname;
-    public List<string> IDPath;
-    public List<GoToChatButton> mockupChat;
+    public PostData CurrentPostPopupData => currentPostPopupData;
+
     public void SetPhase(QuestionPhase phase)
     {
         this.phase = phase;
@@ -72,62 +50,33 @@ public class PopUpManager : MonoBehaviour
 
     public void Awake()
     {
-        IDPath = new List<string>();
-        TimeRecord.Instance.CreatePlayerCsv();
-        chatPopUpDic = new Dictionary<string, ChatPopup>();
-        popUpDic = new Dictionary<string, BasePopUp>();
-        data = new FeedData();
-        data = JsonUtility.FromJson<FeedData>(ReadFile("Feed/Class1").ToString());
-        foreach (var button in mockupChat)
+        endText.text = UserData.Instance.IsTutorial ? "จบการทดลองเล่น" : "ขอบคุณ";
+        currentIndex = 0;
+        var jsonTextFile = new TextAsset();
+        if (UserData.Instance.IsTutorial)
         {
-            if(button.ID == UserData.Story)
+            jsonTextFile = Resources.Load<TextAsset>("Feed/tutorial");
+        }
+        else
+        {
+            if (UserData.Instance.TaskIndex == "game_1")
             {
-                button.gameObject.SetActive(true);
+                jsonTextFile = Resources.Load<TextAsset>("Feed/NewS1");
+            }
+            else
+            {
+                jsonTextFile = Resources.Load<TextAsset>("Feed/NewS2");
+
             }
         }
-        timeToClickChat = Time.time;
-        StartCoroutine(StartChatStory());
+        data = JsonUtility.FromJson<FeedData>(jsonTextFile.ToString());
+        data.PostData = Shuffle(data.PostData);
     }
-
-    IEnumerator StartChatStory()
-    {
-        /* if (UserData.Story == "Story1")
-         {
-             OpenChat("storyc", true);
-         }
-         else if (UserData.Story == "Story3")
-         {
-             OpenChat("story3-0-2", true, true);
-             OpenChat("story3-0-3", true, true);
-         }
-         while (NextFileName != "")
-         {
-
-         }*/
-        yield return new WaitForEndOfFrame();
-
-        OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story3");
-
-        startObj.SetActive(false);
-    }
-
-    public void OnclickOgpage(GameObject obj, string data)
-    {
-        obj.SetActive(false);
-        CreatePopup(data);
-    }
-
-    public TextAsset ReadFile(string fileName)
-    {
-        return Resources.Load<TextAsset>("Feed/Class1");
-    }
-
     private void Start()
     {
         foreach (var postData in data.PostData)
         {
-            var popup = Instantiate(popupPrefab, feedParent);
+            var popup = Instantiate(popupPrefab, parent);
             popup.gameObject.SetActive(true);
             popup.Initialized(postData, this);
         }
@@ -152,159 +101,43 @@ public class PopUpManager : MonoBehaviour
         }
     }
 
-    public string GetSpPath(string path)
+    public void Back()
     {
-        if (path == "story2-16")
-        {
-            if (!UserData.S2Pass)
-            {
-                path = "story2-16-1";
-            }
-        }
-        return path;
-    }
-    
-    public void OpenChat(string path,bool muteSound = false,bool isOld =false)
-    {
-        path = GetSpPath(path);
-        IDPath.Add(path);
-        print(UserData.Story);
-        ChatData newData = ReadChatData($"Feed/{UserData.Story}/{path}");
-        print(path);
-        print(newData.ID);
-        string id = newData.ID;
-        TimeRecord.Instance.LogCheck(path);
-        if (chatPopUpDic.ContainsKey(id))
-        {
-            foreach(BasePopUp popUp in chatPopUpDic.Values)
-            {
-                popUp.gameObject.SetActive(false);
-            }
-
-            chatPopUpDic[id].gameObject.SetActive(true);
-            StopCoroutine(chatPopUpDic[id].ShowChat(newData, muteSound));
-            StartCoroutine(chatPopUpDic[id].ShowChat(newData, muteSound));
-
-        }
-        else
-        {
-            foreach (BasePopUp popUp in chatPopUpDic.Values)
-            {
-                popUp.gameObject.SetActive(false);
-            }
-
-            ChatPopup popup = Instantiate(chatPopup, chatParent);
-            popup.SetManager(this);
-            popup.gameObject.SetActive(true);
-            chatPopUpDic[id] = popup;
-            popUpDic[id] = popup;
-            StartCoroutine(popup.ShowChat(newData,muteSound));
-            AddNewButt(newData);
-        }
-
-        CurrentJsonName = path;
-    }
-
-    public void AddNewButt(ChatData newData)
-    {
-        bool have = false;
-
-        foreach (var button in allChatButtonList)
-        {
-            if(button.ID == newData.ID)
-            {
-                have = true;
-                break;
-            }
-        }
-        if (!have)
-        {
-            GoToChatButton butt = Instantiate(chatButton, goToChatParent);
-            butt.transform.SetSiblingIndex(0);
-            print(butt);
-            butt.gameObject.SetActive(true);
-            butt.Initialized(newData, this);
-            allChatButtonList.Add(butt);
-        }
-    }
-    public void ShowAllChat( )
-    {
-        timeToClickChat = Time.time;
-        print(UserData.Story);
-        ChatData data = ReadChatData($"Feed/{UserData.Story}/{NextFileName}");
-        allChat.SetActive(true);
-
-        foreach (var button in allChatButtonList)
-        {
-            if(button.ID == data.ID)
-            {
-                button.transform.SetSiblingIndex(0);
-                StartCoroutine(ShowAllChatGuide(button));
-
-            }
-            else
-            {
-                button.button.interactable = false;
-            }
-
-
-        }
-
-    }
-
-    private IEnumerator ShowAllChatGuide(GoToChatButton button)
-    {
-        yield return new WaitForEndOfFrame();
-
-        button.button.interactable = true;
-        GotoChatGuildLine.gameObject.SetActive(true);
-        GotoChatGuildLine.position = new Vector2(GotoChatGuildLine.position.x, button.t.position.y);
-    }
-
-    public void HindAllChat( )
-    {
-        allChat.SetActive(false);
-        GotoChatGuildLine.gameObject.SetActive(false);
-    }
-
-    public ChatData ReadChatData(string path)
-    {
-        ChatData data = new ChatData();
-        print(path);
-        var jsonTextFile = Resources.Load<TextAsset>(path);
-
-        return data = JsonUtility.FromJson<ChatData>(jsonTextFile.ToString());
-
-        //StartCoroutine(ShowChat());
-
+        SceneManager.LoadScene(1);
     }
 
     public void click()
     {
-        /* if ()
-             ChatPopup popup = Instantiate<chatPopup,>();*/
-        OpenChat(currentPostPopupData.TaskType);
-        //chatPopup.gameObject.SetActive(true);
-        //chatPopup.ReadData(currentPostPopupData.TaskType);
-        //chatPopup.Initialized(currentPostPopupData,this);
-        //StartCoroutine(CountToStartQuestion());
-
-        
-
+        readPopup.gameObject.SetActive(true);
+        readPopup.Initialized(currentPostPopupData, this);
+        StartCoroutine(CountToStartQuestion());
         //currentPostPopupData.IsTask = false;
     }
     public void Confirm()
     {
         currentPostPopupData.IsTask = false;
         question.gameObject.SetActive(false);
-        chatPopup.gameObject.SetActive(false);
+        readPopup.gameObject.SetActive(false);
+        currentIndex++;
+        if (currentIndex >= data.PostData.Length)
+        {
+            StartCoroutine(CountToEnd());
+        }
+    }
+
+    private IEnumerator CountToEnd()
+    {
+        yield return new WaitForSeconds(5);
+        endPopup.SetActive(true);
     }
 
     private IEnumerator CountToStartQuestion()
     {
-        yield return new WaitForSeconds(5);
-        question.gameObject.SetActive(true);
         question.viewPoint.sizeDelta = new Vector2(1024, 1366) - new Vector2(0, question.select.sizeDelta.y + 20);
+        question.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        //question.gameObject.SetActive(true);
+       // question.viewPoint.sizeDelta = new Vector2(1024, 1366) - new Vector2(0, question.select.sizeDelta.y + 20);
     }
 
     public IEnumerator UpdateLayoutGroup()
@@ -314,42 +147,23 @@ public class PopUpManager : MonoBehaviour
         layoutGroup.enabled = true;
     }
 
-    public BasePopUp FindPopup(string id)
+    public PostData[] Shuffle(PostData[] data)
     {
-        foreach(var popUp in PopUpData.Instance.allPopUpList)
+        PostData[] newData = new PostData[data.Length];
+        List<int> index = new List<int>();
+        for (int i = 0; i < data.Length; i++)
         {
-            if(id == popUp.ID)
-            {
-                return popUp;
-            }
+            index.Add(i);
         }
 
-        return null;
+        for (int i = 0; i < data.Length; i++)
+        {
+            int ranIndex = Random.Range(0, index.Count);
+            newData[i] = data[index[ranIndex]];
+            index.RemoveAt(ranIndex);
+        }
+        return newData;
     }
-
-    public void CreatePopup(string id)
-    {
-        TimeRecord.Instance.LogCheck(id);
-        if (chatPopUpDic.ContainsKey(id))
-        {
-            foreach (BasePopUp popUp in popUpDic.Values)
-            {
-                popUp.gameObject.SetActive(false);
-            }
-
-            popUpDic[id].gameObject.SetActive(true);
-
-        }
-        else
-        {
-            print(id);
-            BasePopUp popup = Instantiate(FindPopup(id), popupParent);
-            popup.SetManager(this);
-            popup.gameObject.SetActive(true);
-            popUpDic[id] = popup;
-        }
-    }
-
 }
 [System.Serializable]
 public class FeedData
@@ -370,7 +184,5 @@ public class PostData
     public int ShereCount;
     public bool IsTask;
     public string TaskType;
-    public string TimeStamp;
-    public bool IsRead;
     public PostData[] CommentData;
 }

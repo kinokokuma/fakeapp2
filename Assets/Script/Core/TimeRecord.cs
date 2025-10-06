@@ -8,14 +8,21 @@ using UnityEngine.UI;
 
 public class TimeRecord : MonoSingleton<TimeRecord>
 {
-    private string csv_name = "Story1_";
+    private string csv_name = "Observer_";
     private int taskNumber = 1;
     private string id = "1";
     private List<string[]> rowData = new List<string[]>();
-    private List<string[]> logData = new List<string[]>();
+    private string testType = "PreTest";
+
+    public PopUpManager manager;
 
     public void Start()
     {
+        csv_name += UserData.Instance.ID + "_" + UserData.Instance.TaskIndex;
+        if (!UserData.Instance.IsTutorial)
+        {
+            CreatePlayerCsv(csv_name);
+        }
     }
 
     public void AddTaskNumber()
@@ -23,22 +30,22 @@ public class TimeRecord : MonoSingleton<TimeRecord>
         taskNumber++;
     }
 
-    public void CreatePlayerCsv()
+
+    public void CreatePlayerCsv(string name)
     {
         List<string[]> rowData = new List<string[]>();
 
         // Creating First row of titles manually..
         string[] rowDataTemp = new string[6];
         rowDataTemp[0] = "Date";
-        rowDataTemp[1] = "TimeFromStartQuestTion";
-        rowDataTemp[2] = "ID";
-        rowDataTemp[3] = "AnsTime";
-        rowDataTemp[4] = "Ans";
-        rowDataTemp[5] = "IsSignificant";
+        rowDataTemp[1] = "TimeFromStart";
+        rowDataTemp[2] = "TaskNumber";
+        rowDataTemp[3] = "PostID";
+        rowDataTemp[4] = "QuestionType";
+        rowDataTemp[5] = "ClickTarget";
         rowData.Add(rowDataTemp);
 
         string[][] output = new string[rowData.Count][];
-
 
         for (int i = 0; i < output.Length; i++)
         {
@@ -47,127 +54,74 @@ public class TimeRecord : MonoSingleton<TimeRecord>
 
         int length = output.GetLength(0);
         string delimiter = ",";
-        string dataString = string.Empty;
 
         StringBuilder sb = new StringBuilder();
 
         for (int index = 0; index < length; index++)
-        {
             sb.AppendLine(string.Join(delimiter, output[index]));
-        }
-
-        string filePath = getPath();
-        print(getPath());
-        string directoryPath = $"{Application.persistentDataPath}/CSV";
-        if (!Directory.Exists(directoryPath))
-        {
-            Directory.CreateDirectory(directoryPath);
-        }
 
         if (!File.Exists(getPath()))
         {
             StreamWriter outStream = System.IO.File.CreateText(getPath());
             outStream.Write(sb);
             outStream.Close();
-            getPath();
         }
-        
-      //  File.WriteAllText(getPath(), sb.ToString());
-       // File.WriteAllBytes(getPath(), Encoding.ASCII.GetBytes(sb.ToString()));
+
     }
 
     private string[] rowDataTemp = new string[6];
 
-    public void SaveRecord(string ID, string Ans, float startTime,bool isSignificant =false)
+    public void SaveRecord(string clickTarget)
     {
-        rowData = new List<string[]>();
-
-        // Creating First row of titles manually..
-
-        DateTime serverTime = DateTime.Now; // gives you current Time in server timeZone
-        long unixTime = ((DateTimeOffset)serverTime).ToUnixTimeMilliseconds();
-
-        rowDataTemp[0] = unixTime.ToString();
-        rowDataTemp[1] = startTime.ToString();
-        rowDataTemp[2] = "choice-"+ID.ToString();
-        rowDataTemp[3] = (Time.time - startTime).ToString();
-        rowDataTemp[4] = Ans.Replace("\n"," ").Replace(",","");
-        rowDataTemp[5] = isSignificant.ToString();
-        rowData.Add(rowDataTemp);
-
-        string[][] output = new string[rowData.Count][];
-
-        for (int i = 0; i < output.Length; i++)
+        if (!UserData.Instance.IsTutorial)
         {
-            output[i] = rowData[i];
+            rowData = new List<string[]>();
+
+            // Creating First row of titles manually..
+
+            DateTime serverTime = DateTime.Now; // gives you current Time in server timeZone
+            long unixTime = ((DateTimeOffset)serverTime).ToUnixTimeMilliseconds();
+
+            rowDataTemp[0] = unixTime.ToString();
+            rowDataTemp[1] = Time.time.ToString();
+            rowDataTemp[2] = taskNumber.ToString();
+            rowDataTemp[3] = manager.CurrentPostPopupData.PostImage;
+            rowDataTemp[4] = manager.Phase.ToString();
+            rowDataTemp[5] = clickTarget;
+            rowData.Add(rowDataTemp);
+
+            string[][] output = new string[rowData.Count][];
+
+            for (int i = 0; i < output.Length; i++)
+            {
+                output[i] = rowData[i];
+            }
+
+            int length = output.GetLength(0);
+            string delimiter = ",";
+
+            StringBuilder sb = new StringBuilder();
+
+            for (int index = 0; index < length; index++)
+                sb.AppendLine(string.Join(delimiter, output[index]));
+
+            StreamWriter outStream = System.IO.File.AppendText(getPath());
+            outStream.Write(sb);
+            outStream.Close();
         }
-
-        int length = output.GetLength(0);
-        string delimiter = ",";
-
-        StringBuilder sb = new StringBuilder();
-
-        for (int index = 0; index < length; index++)
-            sb.AppendLine(string.Join(delimiter, output[index]));
-
-        string filePath = getPath();
-        StreamWriter outStream = System.IO.File.AppendText(getPath());
-        outStream.Write(sb);
-        outStream.Close();
-        
-        //File.WriteAllText(getPath(), sb.ToString());
-        //File.WriteAllBytes(getPath(), Encoding.ASCII.GetBytes(sb.ToString()));
-
     }
-    string[] LogDataTemp = new string[1];
-
-    public void LogCheck(string ID)
-    {
-        logData = new List<string[]>();
-
-
-        LogDataTemp[0] = ID;
-        logData.Add(LogDataTemp);
-
-        string[][] output = new string[logData.Count][];
-
-        for (int i = 0; i < output.Length; i++)
-        {
-            output[i] = logData[i];
-        }
-
-        int length = output.GetLength(0);
-        string delimiter = ",";
-
-        StringBuilder sb = new StringBuilder();
-
-        for (int index = 0; index < length; index++)
-            sb.AppendLine(string.Join(delimiter, output[index]));
-
-         string filePath = getPath("_Log.csv");
-         StreamWriter outStream = System.IO.File.AppendText(getPath("_LOG"));
-         outStream.Write(sb);
-         outStream.Close();
-
-    }
-
-    void Update()
-    {
-      
-    }
-
-
+    
     // Following method is used to retrive the relative path as device platform
-    private string getPath(string subPath = "")
+    private string getPath()
     {
 #if UNITY_EDITOR
-        return Application.dataPath + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID+ subPath + ".csv";
+        return Application.dataPath + "/CSV/" + csv_name + ".csv";
 #elif UNITY_ANDROID
-        return Application.persistentDataPath  + "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID+subPath + ".csv";
+        return Application.persistentDataPath + "/"+ csv_name + ".csv";
 #elif UNITY_IPHONE
-        return Application.persistentDataPath  + "/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID+subPath + ".csv";
+        return Application.persistentDataPath + "/"+ csv_name + ".csv";
 #else
-        return  "/CSV/" + UserData.Story + "_" + UserData.Solution+ "_" + UserData.UserID + ".csv";
+        return "/"+ csv_name + ".csv";
 #endif
         Debug.Log("get path leido");
     }

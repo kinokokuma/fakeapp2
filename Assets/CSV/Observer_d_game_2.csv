@@ -1,0 +1,6 @@
+Date,TimeFromStart,TaskNumber,PostID,QuestionType,ClickTarget
+1721894810731,12.17733,1,post23,Start,readnews
+1721894812570,14.03973,1,post23,Start,question
+1721894816030,17.50063,1,post23,Is_Fake,not_fake
+1721894817138,18.60835,1,post23,Level_Of_Confident,4
+1721894817430,18.90074,1,post23,Level_Of_Confident,go_to_have_seen
