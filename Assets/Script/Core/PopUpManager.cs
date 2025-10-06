@@ -106,8 +106,8 @@ public class PopUpManager : MonoBehaviour
          }*/
         yield return new WaitForEndOfFrame();
 
-       //OpenChat($"{UserData.Story.ToLower()}-1");
-        OpenChat($"story2-14");
+       OpenChat($"{UserData.Story.ToLower()}-1");
+        //OpenChat($"story2-14");
 
         startObj.SetActive(false);
     }
