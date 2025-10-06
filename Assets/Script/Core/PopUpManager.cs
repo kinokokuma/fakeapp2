@@ -106,8 +106,8 @@ public class PopUpManager : MonoBehaviour
          }*/
         yield return new WaitForEndOfFrame();
 
-        OpenChat($"{UserData.Story.ToLower()}-1");
-        //OpenChat($"story3");
+       //OpenChat($"{UserData.Story.ToLower()}-1");
+        OpenChat($"story2-14");
 
         startObj.SetActive(false);
     }
@@ -154,13 +154,13 @@ public class PopUpManager : MonoBehaviour
 
     public string GetSpPath(string path)
     {
-        if (path == "story2-16")
+        /*if (path == "story2-16")
         {
             if (!UserData.S2Pass)
             {
                 path = "story2-16-1";
             }
-        }
+        }*/
         return path;
     }
     
