@@ -121,7 +121,8 @@ public class PostPopup : BasePopUp
     {
         if (rectTransform != null && postData!=null)
         {
-            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= -600 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 30)
+            
+            if (scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y >= 0 && scrollRectTransform.anchoredPosition.y + rectTransform.anchoredPosition.y < rectTransform.sizeDelta.y - 30)
             {
                 if (postData != null)
                 {
@@ -133,7 +134,7 @@ public class PostPopup : BasePopUp
                     if (postData.IsTask)
                     {
                         click.gameObject.SetActive(true);
-                        StartCoroutine(UpdateLayoutGroup(layout));
+                        //StartCoroutine(UpdateLayoutGroup(layout));
 
                     }
                     else

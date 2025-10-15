@@ -68,6 +68,7 @@ public class ReadPopup : BasePopUp
             }
         }
         StartCoroutine(UpdateLayoutGroup(reloadObject, 3));
+        scrollRectTransform.localPosition = new Vector2(scrollRectTransform.localPosition.x, 0);
 
     }
 

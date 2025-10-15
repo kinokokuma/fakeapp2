@@ -47,16 +47,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareSettingsEditor.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\ThaiFontDoctorEditor.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareSettingsProvider.cs" />
      <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\ThaiGlyphHelper.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextNurseEditor.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\GlyphCombination.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextCareGUI.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\ThaiFontDoctor.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\ThaiFontDoctorEditor.cs" />
      <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\GlyphGroup.cs" />
      <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareEditorCore.cs" />
-     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\ThaiFontDoctor.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareSettingsEditor.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextCareGUI.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiFontDoctor\GlyphCombination.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextNurseEditor.cs" />
+     <Compile Include="Assets\ThaiTextCare-for-Unity-main\Editor\ThaiTextNurse\ThaiTextCareSettingsProvider.cs" />
      <None Include="Assets\ThaiTextCare-for-Unity-main\Editor\PhEngine.ThaiTextCare.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>D:/unity/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

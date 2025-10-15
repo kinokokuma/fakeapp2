@@ -88,6 +88,7 @@ public class PopUpManager : MonoBehaviour
     }
     public void Update()
     {
+        print(currentIndex +" "+ data.PostData.Length);
         if (currentPostPopupData != null)
         {
             if (currentPostPopupData.IsTask)
@@ -133,7 +134,7 @@ public class PopUpManager : MonoBehaviour
 
     private IEnumerator CountToStartQuestion()
     {
-        question.viewPoint.sizeDelta = new Vector2(1024, 1366) - new Vector2(0, question.select.sizeDelta.y + 20);
+        question.viewPoint.sizeDelta = new Vector2(1024, 1605) - new Vector2(0, question.select.sizeDelta.y + 20);
         question.gameObject.SetActive(true);
         yield return new WaitForSeconds(0.1f);
         //question.gameObject.SetActive(true);

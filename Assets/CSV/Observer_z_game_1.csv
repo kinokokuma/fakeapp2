@@ -1,0 +1,4 @@
+Date,TimeFromStart,TaskNumber,PostID,QuestionType,ClickTarget
+1760468389381,9.790066,1,post8,Start,readnews
+1760468393449,13.88215,1,post8,Start,question
+1760468395078,15.51164,1,post8,Is_Fake,not_fake
