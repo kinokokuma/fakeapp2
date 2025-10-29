@@ -42,4 +42,9 @@ public class NormalPage : BasePopUp
     {
         manager.IDPath.Add(name);
     }
+
+    public void SaveCSV(string name)
+    {
+        TimeRecord.Instance.SaveRecord(ID, name, startTime,true);
+    }
 }

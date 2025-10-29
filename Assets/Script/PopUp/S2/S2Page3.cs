@@ -11,8 +11,8 @@ public class S2Page3 : BasePopUp
     public TMP_Text[] text2, text3;
     private string[] string2 = { "จินต์", "สรรพกุลธร", "456125", "1730125690555", "5 ไร่ 2 งาน", "ตำบลห้วยขวาง อำเภอกำแพงแสน จังหวัดนครปฐม" };
     public GameObject animator;
-    public GameObject home1,home2,back;
-   public void Start()
+    public GameObject home1, home2, back;
+    public void Start()
     {
         startTime = Time.time;
     }
@@ -31,7 +31,7 @@ public class S2Page3 : BasePopUp
     public void BackS()
     {
         manager.OpenChat("story2-16");
-        TimeRecord.Instance.SaveRecord(ID, "ไม่สมัคร", startTime);
+        TimeRecord.Instance.SaveRecord(ID, "ไม่สมัครแอปกรมที่ดิน", startTime,true);
         gameObject.SetActive(false);
     }
     public void Back(bool have)
@@ -40,6 +40,7 @@ public class S2Page3 : BasePopUp
         if (have)
         {
             manager.OpenChat("story2-17");
+
         }
         else
         {
@@ -47,6 +48,21 @@ public class S2Page3 : BasePopUp
         }
         TimeRecord.Instance.SaveRecord(ID, "กลับแชท", startTime);
         gameObject.SetActive(false);
+    }
+    public void  Register()
+    {
+        TimeRecord.Instance.SaveRecord(ID, "สมัครแอปกรมที่ดิน", startTime, true);
+    }
+    public void PassID(bool isbankID)
+    {
+        if (isbankID)
+        {
+            TimeRecord.Instance.SaveRecord(ID, "ใช้รหัสธนาคาร", startTime, true);
+        }
+        else
+        {
+            TimeRecord.Instance.SaveRecord(ID, "ใช้รหัสใหม่", startTime, true);
+        }
     }
 
     public void ClickWrite(bool is1)
