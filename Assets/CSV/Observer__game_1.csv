@@ -4,3 +4,9 @@ Date,TimeFromStart,TaskNumber,PostID,QuestionType,ClickTarget
 1719240027502,445.2986,1,post11,Level_Of_Confident,go_to_have_seen
 1719240028304,446.1015,1,post11,Have_seen,yes
 1719240588408,1006.206,2,post9,Is_Fake,not_fake
+1762953076183,153.1518,1,post7,Start,readnews
+1762953095346,172.3431,1,post7,Start,question
+1762953096273,173.2702,1,post7,Is_Fake,fake
+1762953096869,173.8669,1,post7,Level_Of_Confident,4
+1762953097208,174.2059,1,post7,Level_Of_Confident,go_to_have_seen
+1762953097712,174.7095,1,post7,Have_seen,no
