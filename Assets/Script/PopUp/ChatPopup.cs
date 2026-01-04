@@ -425,7 +425,7 @@ public class ChatPopup : BasePopUp
     private void LateUpdate()
     {
 
-        if (chatParent.sizeDelta.y <= 1400)
+        if (chatParent.sizeDelta.y <= 1200)
         {
             chatParent.pivot = new Vector2(chatParent.pivot.x, 1);
         }

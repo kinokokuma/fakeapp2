@@ -1,3 +1,7 @@
 Date,TimeFromStartQuestTion,ID,AnsTime,Ans,IsSignificant
 1752521372467,60.15076,choice-chat-02-story1-13,15.93573,เปิดแชททั้งหมด,False
 1752521373442,76.08649,choice-chat-04,0.9765625,เปิดแชทchat-04,False
+1765949345568,78.24639,choice-chat-01-story1-1,6.045914,ขนมจีบ,False
+1765949616297,77.56103,choice-chat-01-story1-1,33.48228,ขนมจีบ,False
+1765950092202,178.8535,choice-chat-01-story1-3,124.0897,เปิดแชททั้งหมด,False
+1765950096556,302.9433,choice-chat-02,4.354065,เปิดแชทchat-02,False
