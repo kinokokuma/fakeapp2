@@ -108,7 +108,7 @@ public class QuestPopUp : BasePopUp
             TimeRecord.Instance.SaveRecord("go_to_have_seen");
             seen.gameObject.SetActive(true);
             score.gameObject.SetActive(false);
-            viewPoint.sizeDelta = new Vector2(1024, 1605) - new Vector2(0, seen.sizeDelta.y + 20);
+            viewPoint.sizeDelta = new Vector2(1024, 1265) - new Vector2(0, seen.sizeDelta.y + 20);
             manager.SetPhase(QuestionPhase.Have_seen);
         });
 
@@ -119,7 +119,7 @@ public class QuestPopUp : BasePopUp
             button.Initialized(i);
             button.Button.onClick.AddListener(() => ConfidentButton(button));
         }
-        viewPoint.sizeDelta = new Vector2(1024, 1404);
+        viewPoint.sizeDelta = new Vector2(1024, 1053);
     }
 
     private void ConfidentButton(LevelOfConfidentButton button)
@@ -152,7 +152,7 @@ public class QuestPopUp : BasePopUp
     private void Confirm()
     {
         Back(true);
-        viewPoint.sizeDelta = new Vector2(1024, 1404);
+        viewPoint.sizeDelta = new Vector2(1024, 1053);
         seen.gameObject.SetActive(false);
         select.gameObject.SetActive(false);
         TimeRecord.Instance.AddTaskNumber();
@@ -163,16 +163,17 @@ public class QuestPopUp : BasePopUp
 
     private void Back(bool ok)
     {
+        print("xx");
         select.gameObject.SetActive(ok);
         score.gameObject.SetActive(!ok);
 
         if (ok)
         {
-            viewPoint.sizeDelta = new Vector2(1024, 1605) - new Vector2(0, select.sizeDelta.y + 20);
+            viewPoint.sizeDelta = new Vector2(1024, 1265) - new Vector2(0, select.sizeDelta.y + 20);
         }
         else
         {
-            viewPoint.sizeDelta = new Vector2(1024, 1605) - new Vector2(0, score.sizeDelta.y+20);
+            viewPoint.sizeDelta = new Vector2(1024, 1265) - new Vector2(0, score.sizeDelta.y+20);
         }
     }
 
