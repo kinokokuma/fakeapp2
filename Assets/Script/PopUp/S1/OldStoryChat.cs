@@ -10,7 +10,7 @@ public class OldStoryChat : BasePopUp
     public TMP_Text text;
     void Start()
     {
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             text.text += "คะ";
         }

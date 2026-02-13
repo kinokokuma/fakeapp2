@@ -206,10 +206,10 @@ public class ChatNormal : ChatObjectBase
                 }
                 string text = data.Content.Replace("{name}", UserData.UserName);
                 text = text.Replace("{name}", UserData.UserName);
-                text = text.Replace("{type}", UserData.UserSex == "ชาย"?"ลุง":"ป้า");
+                text = text.Replace("{type}", UserData.UserSex == sex.male ? "ลุง":"ป้า");
                 if (data.OnwerName == "my")
                 {
-                    if (UserData.UserSex == "ชาย")
+                    if (UserData.UserSex ==sex.male)
                     {
                         text = text.Replace("ค่ะ", "ครับ");
                         text = text.Replace("คะ", "ครับ");

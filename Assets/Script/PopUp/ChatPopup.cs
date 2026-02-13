@@ -185,14 +185,14 @@ public class ChatPopup : BasePopUp
                         {
                             data.DataDetail[chatIndex].DelayTime = 3;
                         }
-                        if(UserData.UserSex == "ชาย")
+                        if(UserData.UserSex == sex.male)
                         {
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
 
                         }
 
-                        data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("{type}", UserData.UserSex == "ชาย"?"ลุง":"ป้า");
+                        data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("{type}", UserData.UserSex == sex.male ? "ลุง":"ป้า");
                         data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("{name}", UserData.UserName);
 
                         if (oldIndex != chatIndex || oldIndex == 0)
@@ -271,7 +271,7 @@ public class ChatPopup : BasePopUp
                     }
                     else
                     {
-                        if (data.DataDetail[chatIndex].OnwerName == "ซี" && UserData.UserSex == "หญิง")
+                        if (data.DataDetail[chatIndex].OnwerName == "ซี" && UserData.UserSex == sex.women)
                         {
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("ค่ะ", "ครับ");
                             data.DataDetail[chatIndex].Content = data.DataDetail[chatIndex].Content.Replace("คะ", "ครับ");
@@ -467,7 +467,7 @@ public class ChatPopup : BasePopUp
         dataDetail.OnwerName = "my";
         dataDetail.Icon = string.Empty;
         dataDetail.Content = data.Content.Replace("{0}", choiceText.Path);
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             dataDetail.Content = dataDetail.Content.Replace("ค่ะ", "ครับ");
             dataDetail.Content = dataDetail.Content.Replace("คะ", "ครับ");

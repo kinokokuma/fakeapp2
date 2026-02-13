@@ -25,7 +25,7 @@ public class Group1Popup : BasePopUp
         }
         );
 
-        if(UserData.UserSex == "ชาย")
+        if(UserData.UserSex == sex.male)
         {
             foreach (GameObject obj in male)
             {

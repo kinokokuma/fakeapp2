@@ -15,7 +15,7 @@ public class S2Page4 : BasePopUp
     public int index;
         public void Start()
     {
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             page1[index].SetActive(true);
         }
@@ -36,7 +36,7 @@ public class S2Page4 : BasePopUp
         {
             SoundManager.Instance.source.Stop();
         }
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             SoundManager.Instance.source.PlayOneShot(clip1[index], 1);
             time = clip1[index].length;
@@ -52,7 +52,7 @@ public class S2Page4 : BasePopUp
         yield return new WaitForSeconds(time);
 
         
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             SoundManager.Instance.source.PlayOneShot(clip1[index], 1);
             time = clip1[index].length;
@@ -72,7 +72,7 @@ public class S2Page4 : BasePopUp
         }
         else
         {
-            if (UserData.UserSex == "ชาย")
+            if (UserData.UserSex == sex.male)
             {
                 page1[index].SetActive(true);
             }
@@ -94,7 +94,7 @@ public class S2Page4 : BasePopUp
     IEnumerator Play()
     {
         float time;
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             time=clip1[index].length;
         }
@@ -112,7 +112,7 @@ public class S2Page4 : BasePopUp
 
     public void NextPage()
     {
-        if (UserData.UserSex == "ชาย")
+        if (UserData.UserSex == sex.male)
         {
             
             StartCoroutine(Count());
