@@ -6,6 +6,7 @@ using UnityEngine;
 public class S2Page5 : BasePopUp
 {
     public TMP_Text[] text1;
+    [SerializeField]
     private string[] string1 = { "®‘πµÏ", " √√æ°ÿ≈∏√", "jint1234@gmail.com", "1730125690555" , "0891547826" };
     public GameObject home1,next;
     public void Start()

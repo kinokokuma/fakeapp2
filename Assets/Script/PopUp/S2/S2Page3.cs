@@ -9,6 +9,7 @@ public class S2Page3 : BasePopUp
     public TMP_Text[] text1;
     private string[] string1 = { "jint1234", "0891547826", "jint1234@gmail.com" };
     public TMP_Text[] text2, text3;
+    [SerializeField]
     private string[] string2 = { "จินต์", "สรรพกุลธร", "456125", "1730125690555", "5 ไร่ 2 งาน", "ตำบลห้วยขวาง อำเภอกำแพงแสน จังหวัดนครปฐม" };
     public GameObject animator;
     public GameObject home1, home2, back;
